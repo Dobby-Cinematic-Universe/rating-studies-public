@@ -12,6 +12,10 @@ The data (data/README.md) hold people's ratings of 250-word excerpts of machine 
 models' scores of the same excerpts. They hold no text and nothing that identifies a rater. Results describe how
 people and models rate the wording of excerpts; they are not facts about any person.
 
+One result of the report needs a mark that the public data do not hold: the second study without the fourteen
+excerpts with sensitive language. The edition with the excerpt texts carries the mark (data/excerpt_texts.csv,
+column sensitive_language); where that file is present, the result is computed as well.
+
 Contents
   1  reading the data
   2  estimators of the first study (one rater per excerpt and question, five raters of a closed set)
@@ -101,6 +105,11 @@ def load():
     cnt = collections.Counter(zip(D["form"], D["set"])); bad = sum(per[k] != {F["ids"][i] for i in F["sets"][D["form"][k]][D["set"][k]]} for k in range(len(rat)))
     D["sessions"] = dict(valid=len(rat), raters_whose_excerpts_are_not_their_set=int(bad), sets_with_a_valid_rater=len(cnt), sets_with_two_or_more=sum(v > 1 for v in cnt.values()), sets_without=200 - len(cnt), valid_by_form={x: int((D["form"] == x).sum()) for x in "AB"},
                          valid_by_arm={ARMS[a]: int((D["arm"] == a).sum()) for a in (1, 0)})
+    # The mark of the excerpts with sensitive language, only in the edition that holds the excerpt texts.
+    F["noted"] = None
+    if (DATA / "excerpt_texts.csv").exists():
+        marks = {r["excerpt"]: r["sensitive_language"] for r in read_csv("excerpt_texts.csv") if r.get("study") == "2" and r.get("sensitive_language") in ("0", "1")}
+        if len(marks) == len(ex) and all(e["id"] in marks for e in ex): F["noted"] = np.array([marks[e["id"]] == "1" for e in ex])
     calls = read_csv("study2_model_calls.csv")
     return Q, P, S1, F, D, calls
 
@@ -462,6 +471,7 @@ def study2_fixed(F, D, first, B=1000, seed=20261122):
             o[f] = dict(excerpts=pl["excerpts"], reliability=pl["reliability"], reliability_interval=P5(bt["reliability"]), jev14_with_mean=pl["jev14"], jev14_interval=P5(bt["jev14"]), drex_with_mean=pl["drex"], drex_interval=P5(bt["drex"]), verdict_not_used=verdict(pl["reliability"], max(pl["jev14"], pl["drex"])))
         return o
     out["kinds"] = {kd: part(F["kind"] == kd) for kd in KINDS}; out["periods"] = {p: part(F["period"] == p) for p in PERIODS}
+    if F["noted"] is not None: out["without_noted_excerpts"] = dict(left_out=int(F["noted"].sum()), dimensions=part(~F["noted"]))
     out["rater_levels"] = dict(mean_sd_of_levels=float(np.mean([math.sqrt(fits[q["id"]]["var_level"]) for q in Q])), mean_sd_of_the_rest=float(np.mean([math.sqrt(fits[q["id"]]["var_rest"]) for q in Q])))
     return out, dict(fits=fits, comp=comp, kr=kr, RT=RT)
 
@@ -883,6 +893,8 @@ def main():
     for f, d in r2["dimensions"].items():
         w, rc = d["with_the_model"], d["recordings"]; print("%-3s reliability %s %s, panel: jev %s %s, drex %s %s, %-14s | share between recordings %s %s, site score with a panel %s %s" % (f, f2(w["reliability"]), iv(w["reliability_interval"]), f2(w["jev14_with_panel"]), iv(w["jev14_with_panel_interval"]),
               f2(w["drex_with_panel"]), iv(w["drex_with_panel_interval"]), w["verdict"], f2(rc["share_between_recordings"]), iv(rc["share_interval"]), f2(rc["site_score_with_panel"]), iv(rc["site_score_interval"])))
+    if "without_noted_excerpts" in r2:
+        wn = r2["without_noted_excerpts"]; print("without the %d excerpts with sensitive language: %s" % (wn["left_out"], " ; ".join("%s %s | %s %s (%s)" % (f, f2(v["reliability"]), f2(v["jev14_with_mean"]), f2(v["drex_with_mean"]), v["verdict_not_used"]) for f, v in wn["dimensions"].items())))
     o8 = r2["models"]["over_the_eight"]; du = r2["dimensions_usable"]; print("usable: %d by the plain figures (settled %d), %d with the model's help | the two models over the eight: %.3f and %.3f, difference %+.3f [%+.3f, %+.3f]" % (du["plain"], du["settled_as_usable"], du["with_the_model"], o8["jev14"], o8["drex"], o8["difference"], *o8["difference_interval"]))
     print("the sixteen questions (mean of five | jev-1.14.0 | drex-max | by the rule): " + " ; ".join("%s %.2f | %.2f | %.2f | %s" % (v["name"], v["reliability"], v["jev14_with_mean"], v["drex_with_mean"], v["verdict_not_used"]) for v in r2["questions"].values()))
     ar = r2["arms"]["raters"]; print("the two arms (sample answers | own answers only): correlation with jev-1.14.0 %.3f | %.3f, difference %+.3f [%+.3f, %+.3f]; with the other raters %.3f | %.3f; spread %.2f | %.2f" % (ar["with_jev14"]["first"], ar["with_jev14"]["second"], ar["with_jev14"]["difference"], *ar["with_jev14"]["interval"],

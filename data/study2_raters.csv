@@ -1,0 +1,212 @@
+rater,form,set,arm
+B001,B,4,own answers only
+B002,A,72,own answers only
+B003,B,73,sample answers
+B004,A,83,sample answers
+B005,A,16,own answers only
+B006,A,68,sample answers
+B007,A,21,sample answers
+B008,A,35,own answers only
+B009,A,33,sample answers
+B010,B,51,sample answers
+B011,B,61,own answers only
+B012,B,53,sample answers
+B013,A,44,own answers only
+B014,B,91,own answers only
+B015,A,7,sample answers
+B016,B,44,own answers only
+B017,A,32,own answers only
+B018,A,27,sample answers
+B019,B,93,own answers only
+B020,B,32,own answers only
+B021,A,37,own answers only
+B022,A,99,sample answers
+B023,B,17,sample answers
+B024,A,24,own answers only
+B025,A,79,own answers only
+B026,A,58,own answers only
+B027,A,0,own answers only
+B028,A,56,own answers only
+B029,A,23,sample answers
+B030,B,54,own answers only
+B031,B,63,own answers only
+B032,A,48,sample answers
+B033,B,87,own answers only
+B034,A,31,sample answers
+B035,B,81,own answers only
+B036,A,59,sample answers
+B037,A,94,own answers only
+B038,B,73,sample answers
+B039,B,43,sample answers
+B040,B,90,own answers only
+B041,A,46,sample answers
+B042,B,34,sample answers
+B043,A,71,sample answers
+B044,B,46,own answers only
+B045,A,91,sample answers
+B046,B,11,sample answers
+B047,B,76,own answers only
+B048,A,51,own answers only
+B049,A,45,sample answers
+B050,B,63,own answers only
+B051,B,99,own answers only
+B052,A,2,sample answers
+B053,B,39,own answers only
+B054,B,82,own answers only
+B055,B,30,sample answers
+B056,B,42,sample answers
+B057,A,28,sample answers
+B058,A,36,own answers only
+B059,B,49,own answers only
+B060,B,1,own answers only
+B061,A,88,sample answers
+B062,A,14,sample answers
+B063,B,26,own answers only
+B064,A,8,own answers only
+B065,A,54,own answers only
+B066,B,10,own answers only
+B067,A,50,sample answers
+B068,A,97,own answers only
+B069,A,78,sample answers
+B070,A,18,sample answers
+B071,B,72,own answers only
+B072,B,23,sample answers
+B073,B,88,own answers only
+B074,B,71,own answers only
+B075,A,30,own answers only
+B076,A,95,sample answers
+B077,A,73,sample answers
+B078,B,9,sample answers
+B079,B,24,own answers only
+B080,B,29,sample answers
+B081,A,96,own answers only
+B082,B,22,sample answers
+B083,B,60,own answers only
+B084,B,2,sample answers
+B085,A,34,own answers only
+B086,B,35,sample answers
+B087,B,68,own answers only
+B088,A,65,own answers only
+B089,A,9,sample answers
+B090,A,82,own answers only
+B091,A,63,own answers only
+B092,A,92,own answers only
+B093,B,16,sample answers
+B094,A,17,own answers only
+B095,B,37,own answers only
+B096,B,56,sample answers
+B097,B,38,sample answers
+B098,B,67,own answers only
+B099,B,70,own answers only
+B100,B,8,own answers only
+B101,B,45,sample answers
+B102,B,33,sample answers
+B103,A,47,sample answers
+B104,A,84,own answers only
+B105,A,61,sample answers
+B106,A,53,sample answers
+B107,A,86,own answers only
+B108,A,74,own answers only
+B109,B,21,sample answers
+B110,B,96,sample answers
+B111,A,93,own answers only
+B112,B,89,own answers only
+B113,A,29,own answers only
+B114,A,12,own answers only
+B115,A,26,own answers only
+B116,A,43,own answers only
+B117,A,98,sample answers
+B118,B,41,own answers only
+B119,A,10,own answers only
+B120,A,4,sample answers
+B121,A,15,own answers only
+B122,A,74,own answers only
+B123,A,62,own answers only
+B124,B,0,own answers only
+B125,B,75,sample answers
+B126,A,77,sample answers
+B127,A,19,sample answers
+B128,B,20,own answers only
+B129,B,3,sample answers
+B130,A,42,sample answers
+B131,A,41,sample answers
+B132,A,41,sample answers
+B133,A,3,own answers only
+B134,B,27,sample answers
+B135,B,74,sample answers
+B136,A,90,own answers only
+B137,B,79,sample answers
+B138,B,52,own answers only
+B139,B,86,sample answers
+B140,B,64,sample answers
+B141,B,50,sample answers
+B142,B,54,own answers only
+B143,B,65,sample answers
+B144,A,75,sample answers
+B145,A,11,sample answers
+B146,B,31,sample answers
+B147,A,64,own answers only
+B148,A,0,own answers only
+B149,A,85,sample answers
+B150,B,83,sample answers
+B151,A,49,own answers only
+B152,A,67,own answers only
+B153,B,55,sample answers
+B154,A,13,own answers only
+B155,B,85,sample answers
+B156,B,6,sample answers
+B157,B,92,sample answers
+B158,B,25,sample answers
+B159,B,97,own answers only
+B160,A,6,sample answers
+B161,B,13,own answers only
+B162,B,69,own answers only
+B163,A,1,sample answers
+B164,A,20,sample answers
+B165,A,38,sample answers
+B166,B,48,sample answers
+B167,B,94,own answers only
+B168,A,66,own answers only
+B169,B,5,own answers only
+B170,B,78,sample answers
+B171,B,40,sample answers
+B172,B,95,own answers only
+B173,B,28,sample answers
+B174,A,4,sample answers
+B175,B,59,own answers only
+B176,A,60,own answers only
+B177,B,98,own answers only
+B178,B,36,own answers only
+B179,B,57,own answers only
+B180,B,12,sample answers
+B181,B,7,sample answers
+B182,A,55,sample answers
+B183,B,19,sample answers
+B184,A,76,own answers only
+B185,B,82,own answers only
+B186,A,81,sample answers
+B187,A,22,own answers only
+B188,B,81,own answers only
+B189,B,80,sample answers
+B190,B,14,own answers only
+B191,B,15,sample answers
+B192,B,47,sample answers
+B193,B,62,own answers only
+B194,B,77,own answers only
+B195,B,58,sample answers
+B196,B,27,sample answers
+B197,A,99,sample answers
+B198,A,52,sample answers
+B199,B,66,own answers only
+B200,A,70,sample answers
+B201,A,89,sample answers
+B202,A,39,own answers only
+B203,A,57,own answers only
+B204,A,80,sample answers
+B205,B,84,sample answers
+B206,B,18,own answers only
+B207,A,87,sample answers
+B208,A,25,sample answers
+B209,A,69,own answers only
+B210,A,40,sample answers
+B211,A,5,own answers only

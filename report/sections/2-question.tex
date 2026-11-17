@@ -1,0 +1,56 @@
+\section{What is tested, and by which rule}\label{sec:question}
+
+\paragraph{The analysis.} Every transcript of the archive is cut into passages of 500 words, and a language
+model answers a fixed bank of questions about the wording of each passage. A rating question has five described
+levels, 0 to 4; the model's score is the mean of its own distribution over the levels. One model, \jev{}, rated
+every passage; a second model from another maker, \drex{}, rated a large part again. Related questions are
+grouped into eight dimensions (Table~\ref{tab:s2markers}), and a recording's score on a dimension is computed
+from its passages. The site's methods page describes this in full. Agreement between two models shows that a
+question can be applied consistently. It does not show that either model reads a passage as a person would.
+That is what these studies test.
+
+\paragraph{The comparison.} People read an excerpt and answer the same questions with the same five levels,
+shown exactly as the models receive them, with ``cannot judge'' as a sixth answer. Both models rated exactly the
+text people read: the first 250 words of a passage, as plain text without speaker labels. For one question, let
+$y_{ir}$ be the rating of excerpt $i$ by rater $r$,
+\begin{equation}\label{eq:measurement}
+  y_{ir} = T_i + \varepsilon_{ir},
+\end{equation}
+where $T_i$ is what the raters of the population would say about the excerpt on average, the \emph{panel
+consensus}, and $\varepsilon_{ir}$ everything that makes one rater differ from it. Two quantities carry the
+verdicts:
+\begin{align}
+  \R{k} &= \frac{\sT}{\sT + \se/k}, \qquad \sT = \var(T),\ \se = \var(\varepsilon), && \text{the reliability of the mean of $k$ raters;} \label{eq:rel}\\
+  r &= \rho\,\sqrt{\R{5}}, \qquad \rho = \corr(\text{score}, T), && \text{a model's correlation with the mean of five.} \label{eq:r}
+\end{align}
+$\R{5}$ is also the correlation to expect between the means of two separate panels of five. The second equation
+separates what a correlation with a mean of five mixes: how well the model follows people ($\rho$) and how much
+five people agree ($\R{5}$).
+
+\paragraph{The rule.} Fixed before any rating was collected, with $r^\ast$ the correlation of the better of the
+two models:
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+Verdict & Rule \\
+\midrule
+\verd{usable} & $\R{5} \ge 0.60$ and $r^\ast \ge 0.50$ \\
+\verd{unclear rubric} & $\R{5} < 0.40$: raters do not agree, so the wording of the question is the problem \\
+\verd{misread} & $\R{5} \ge 0.60$ and $r^\ast < 0.30$: raters agree and the models do not follow them \\
+\verd{borderline} & anything else \\
+\bottomrule
+\end{tabular}
+\end{center}
+The lines are conventions, not natural boundaries. A verdict is called \verd{settled} when the whole 95\%
+interval of both quantities lies on one side of every line the rule compares it with; otherwise it is reported
+as \verd{at the line}, and the estimate with its interval is the result.
+
+\paragraph{The population.} A random 500-word passage of a random recording dated 2015 to 2025, videos and
+livestreams in equal numbers, cut to its first 250 words. A recording of 40 minutes or more, or one filed as a
+livestream, counts as a stream.
+
+\paragraph{Fixed in advance, and added afterwards.} For each study the questions, the excerpts, the sets, the
+checks that decide whose ratings count, the estimators and the rule were written down and tested on simulated
+studies before collection. Those results are in Sections~\ref{sec:firstresults} and~\ref{sec:secondresults}. What
+was computed after the results had been read is in Sections~\ref{sec:firstadded} and~\ref{sec:further} and is
+marked as such.

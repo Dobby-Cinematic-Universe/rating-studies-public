@@ -1,0 +1,29 @@
+{
+ "excerpts": 160,
+ "questions": 12,
+ "mean_correlation_jev14": 0.6732187084089961,
+ "mean_correlation_drex": 0.6698215770746477,
+ "mean_difference_of_correlations": 0.0033971313343484264,
+ "mean_b_difference": 0.005625064892716275,
+ "questions_where_jev14_is_higher": 7.0,
+ "mean_correlation_jev14_interval": [
+  0.6497628804173267,
+  0.694034052113535
+ ],
+ "mean_correlation_drex_interval": [
+  0.6515645792707284,
+  0.6876409445628351
+ ],
+ "mean_difference_of_correlations_interval": [
+  -0.011992216144085422,
+  0.018216793639942514
+ ],
+ "mean_b_difference_interval": [
+  -0.03747425359603776,
+  0.048024413825811386
+ ],
+ "questions_where_jev14_is_higher_interval": [
+  5.0,
+  9.0
+ ]
+}

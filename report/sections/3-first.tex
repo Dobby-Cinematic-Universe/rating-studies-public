@@ -1,0 +1,112 @@
+\section{First study: twelve questions}\label{sec:first}
+
+\subsection{Design}\label{sec:firstdesign}
+
+\paragraph{Excerpts.} A pool of 5{,}000 candidate excerpts was drawn at random, 2{,}500 from videos and 2{,}500
+from livestreams, so that the first passage of a recording is a random passage of a random recording. Both
+models rated every candidate at 250 words. 4{,}902 candidates are eligible; the others were unreadable for
+raters (mostly text in another script) or called unrateable by a model. The study used 160 excerpts, one per
+recording, 80 from videos and 80 from streams:
+\begin{itemize}
+\item \textbf{56 at random}, with the three periods 2015--2018, 2019--2021 and 2022--2025 in proportion. They are a
+  random sample of the population and give its figures directly, with wide intervals.
+\item \textbf{104 chosen by rule on the two models' scores} and on nothing else. A random sample holds few
+  excerpts that tell much: most passages score low on most questions, and the two models seldom differ. The rule
+  (a greedy D-optimal design over the twelve questions) adds, one at a time, the excerpt that most sharpens a
+  regression of people's ratings on what both models say and on where they differ.
+\end{itemize}
+All 160 excerpts were read before any participant saw them. Three were replaced by the same rules: two held
+text in another script and one concerned a third person who could be identified.
+
+\paragraph{Questions.} The highest-loading question of each of the eight dimensions and the four
+highest-loading of the rest, among the questions on which the two models' recording averages correlate at 0.6
+or more. They alternate between two forms, so that nobody answers more than six per excerpt
+(Appendix~\ref{app:wording}).
+
+\paragraph{Raters and sets.} Each form splits the 160 excerpts into 20 sets of eight. A participant reads one
+set, and each set was completed by five participants who passed two checks: an instructed-response item, and a
+reading check on the time before the first answer. Participants who failed were paid like the others and their
+place was given again. 205 participants are valid, five per set and six in five sets
+(Section~\ref{sec:materials}).
+
+\subsection{Estimators}\label{sec:firstmethods}
+
+The reliability of one rating is estimated by a one-way analysis of variance with the excerpts as groups, and
+that of the mean of five follows from equation~\eqref{eq:rel}. Because 104 excerpts were chosen by the models'
+scores, a raw correlation among the 160 would be too high. What that choice leaves untouched is the regression
+of the mean rating $H_i$ on the two models' scores,
+\begin{equation}
+  H_i = a + \bm b^\T \bx_i + e_i + \bar\varepsilon_i , \qquad \bx_i = (A_i, B_i)^\T .
+\end{equation}
+With $\bSigma$ the covariance of the two scores in the population (taken from the eligible pool, every recording
+once and the two kinds equally), the figures for the population are rebuilt as
+\begin{equation}
+  \hat\sigma_T^2 = \hat{\bm b}^\T\bSigma\hat{\bm b} + \widehat{\var}(e), \qquad
+  \R{5} = \frac{\hat\sigma_T^2}{\hat\sigma_T^2 + \hat\sigma_\varepsilon^2/5}, \qquad
+  r_m = \frac{(\bSigma\hat{\bm b})_m}{\sqrt{\Sigma_{mm}\,\hat\sigma_T^2}}\sqrt{\R{5}} ,
+\end{equation}
+where $\widehat{\var}(e)$ is the residual variance of the regression less the raters' noise in $H$. This assumes
+a straight-line relation and the same noise everywhere. The verdict is taken on these figures, with the verdict
+of the 56 random excerpts alone beside it; where the two differ, the question is reported as \verd{open}.
+Intervals come from resampling excerpts 1{,}000 times within part and kind. On simulated studies with a known
+answer the rebuilt figures were unbiased, and the raw correlation among all excerpts was too high, as expected.
+
+\subsection{Results fixed in advance}\label{sec:firstresults}
+
+\begin{figure}[!htb]\centering
+\input{gen/fig-verdicts}
+\caption{First study. Per question, estimated for the population from all 160 excerpts, with 95\% intervals. A
+question is usable when it lies right of both lines marked ``usable''. ``Open'': the 56 random excerpts alone
+give a different verdict. Last column: how often the question comes out usable in 1{,}000 resamples of the
+excerpts.}\label{fig:verdicts}
+\end{figure}
+
+\begin{table}[!htb]\centering
+\caption{First study: reliability of one rating and of the mean of five raters, and each model's correlation
+with the mean of five, with 95\% intervals.}\label{tab:verdicts}
+\input{gen/tab-verdicts}
+\end{table}
+
+\begin{itemize}
+\item \textbf{Four questions are usable, firmly.} For positive tone, disappointment, self-critical wording and
+  self-disclosure, the whole interval of the reliability lies above 0.60 and that of each model's correlation
+  above 0.50, on both sets of figures (Figure~\ref{fig:verdicts}, Table~\ref{tab:verdicts}).
+\item \textbf{Eight questions turn on the raters.} Four are borderline on both sets of figures (energetic, humor,
+  compassion, hedging) and four are open (calm, persistence, narrative, persuasion). The models meet their line
+  on all eight; what is missing is agreement among five raters.
+\item \textbf{No question is misread, and none has an unclear rubric.} The lowest reliabilities, 0.45 for hedging
+  and persuasion, are not far above the line of 0.40.
+\item \textbf{The two models are level}: over the twelve questions 0.673 for \jev{} and 0.670 for \drex{}, a
+  difference of $+0.003$ ($-0.012$ to $+0.018$).
+\end{itemize}
+
+\paragraph{A change during collection.} The reading check was changed while the main batch ran. As fixed in
+advance, an excerpt counted as not read when fewer than 15 seconds passed before the rater asked for the
+questions; raters who asked at once and read with the first question beside the excerpt were excluded although
+they spent one to two minutes on a page. The check was changed to the time before the first answer, on times and
+check results alone, without looking at ratings. Under the check as first fixed, 178 of the 205 participants
+remain and the verdicts are the same with one exception: persuasion falls just under the line for an unclear
+rubric. The four usable questions stay usable. (This comparison needs page timings, which are not part of the
+public data.)
+
+\subsection{Added after the results had been read}\label{sec:firstadded}
+
+\begin{itemize}
+\item \textbf{A model against an unlimited panel.} Dividing out the raters' noise, each model correlates with
+  the panel consensus $T$ at 0.86 on average over the twelve questions (0.83 to 0.90 and 0.83 to 0.89), and a
+  single rater at 0.51. On every question both models are closer to the consensus than one rater is.
+\item \textbf{Dimensions from two markers.} Four dimensions had two rated questions. Taken together, the two
+  markers give a composite reliability of 0.65 (F1), 0.88 (F2), 0.84 (F3) and 0.70 (F6), with the models'
+  dimension scores at 0.71 to 0.83, so all four pass the rule (Table~\ref{tab:s2repdim}). For F1 and F6 this
+  was found after the fact, and it is what the second study set out to confirm.
+\item \textbf{Known groups.} Which questions are rated higher in streams than in videos is nearly the same for
+  people and for the models: across the twelve questions the differences correlate at 0.92 with either model
+  among the 56 random excerpts.
+\item \textbf{Levels.} \jev{} rates hedging 1.2 scale points higher than people do, and \drex{} rates nine of the
+  twelve questions lower than people.
+\end{itemize}
+
+\paragraph{What the first study left open.} Four dimensions rested on one question each. The five raters of a
+set read the same eight excerpts, so the general level of a set's raters could not be told from its excerpts.
+The figures had to be rebuilt from a regression. Every rater saw sample answers, which might pull them towards
+the models. And each model had rated each excerpt once.

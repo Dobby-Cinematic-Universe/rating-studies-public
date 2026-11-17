@@ -1,0 +1,195 @@
+\begin{tikzpicture}[fig]
+\mkdot{cpeople}{2.8}{1.66}
+\node[leg,anchor=base west] at (3.03,1.57) {raters};
+\mkdot{cjev}{4.342}{1.66}
+\node[leg,anchor=base west] at (4.572,1.57) {jev-1.14.0 (upper mark)};
+\mkdia{cdrex}{8.128}{1.66}
+\node[leg,anchor=base west] at (8.358,1.57) {drex-max (lower mark)};
+\mkiv{cpeople}{11.5}{11.8}{1.66}
+\node[leg,anchor=base west] at (11.88,1.57) {95\% interval};
+\draw[grid] (0,0) -- (16.35,0);
+\draw[grid] (0,-0.5) -- (16.35,-0.5);
+\draw[grid] (0,-1) -- (16.35,-1);
+\draw[grid] (0,-1.5) -- (16.35,-1.5);
+\draw[grid] (0,-2) -- (16.35,-2);
+\draw[grid] (0,-2.5) -- (16.35,-2.5);
+\draw[grid] (0,-3) -- (16.35,-3);
+\draw[grid] (0,-3.5) -- (16.35,-3.5);
+\draw[grid] (0,-4) -- (16.35,-4);
+\draw[grid] (0,-4.5) -- (16.35,-4.5);
+\draw[grid] (0,-5) -- (16.35,-5);
+\draw[grid] (0,-5.5) -- (16.35,-5.5);
+\draw[grid] (0,-6) -- (16.35,-6);
+\node[ttl,anchor=base west] at (2.7,0.95) {Do raters agree?};
+\draw[grid] (2.7,0) -- (2.7,-6);
+\node[tick,anchor=north] at (2.7,-6.12) {0};
+\draw[grid] (3.54,0) -- (3.54,-6);
+\node[tick,anchor=north] at (3.54,-6.12) {0.2};
+\draw[grid] (4.38,0) -- (4.38,-6);
+\node[tick,anchor=north] at (4.38,-6.12) {0.4};
+\draw[grid] (5.22,0) -- (5.22,-6);
+\node[tick,anchor=north] at (5.22,-6.12) {0.6};
+\draw[grid] (6.06,0) -- (6.06,-6);
+\node[tick,anchor=north] at (6.06,-6.12) {0.8};
+\draw[grid] (6.9,0) -- (6.9,-6);
+\node[tick,anchor=north] at (6.9,-6.12) {1.0};
+\draw[axis] (2.7,-6) -- (6.9,-6);
+\node[mut,anchor=north] at (4.8,-6.58) {Reliability of the mean of five raters};
+\draw[ref] (4.38,0.12) -- (4.38,-6);
+\node[mut,anchor=base east] at (4.32,0.2) {unclear $<0.40$};
+\draw[ref] (5.22,0.12) -- (5.22,-6);
+\node[mut,anchor=base west] at (5.28,0.2) {usable $\geq 0.60$};
+\node[ttl,anchor=base west] at (8.35,0.95) {Do the models follow them?};
+\draw[grid] (8.35,0) -- (8.35,-6);
+\node[tick,anchor=north] at (8.35,-6.12) {0};
+\draw[grid] (9.19,0) -- (9.19,-6);
+\node[tick,anchor=north] at (9.19,-6.12) {0.2};
+\draw[grid] (10.03,0) -- (10.03,-6);
+\node[tick,anchor=north] at (10.03,-6.12) {0.4};
+\draw[grid] (10.87,0) -- (10.87,-6);
+\node[tick,anchor=north] at (10.87,-6.12) {0.6};
+\draw[grid] (11.71,0) -- (11.71,-6);
+\node[tick,anchor=north] at (11.71,-6.12) {0.8};
+\draw[grid] (12.55,0) -- (12.55,-6);
+\node[tick,anchor=north] at (12.55,-6.12) {1.0};
+\draw[axis] (8.35,-6) -- (12.55,-6);
+\node[mut,anchor=north] at (10.45,-6.58) {Correlation with the mean of five raters};
+\draw[ref] (9.61,0.12) -- (9.61,-6);
+\node[mut,anchor=base east] at (9.55,0.2) {misread $<0.30$};
+\draw[ref] (10.45,0.12) -- (10.45,-6);
+\node[mut,anchor=base west] at (10.51,0.2) {usable $\geq 0.50$};
+\node[ttl,anchor=base west] at (13,0.95) {Verdict};
+\node[ttl,anchor=base west] at (14.75,0.95) {Usable in};
+\node[mut,anchor=base west] at (14.75,0.59) {resamples};
+\node[lbl,anchor=base east] at (2.5,-0.34) {Positive tone};
+\mkiv{cpeople}{6.117}{6.367}{-0.25}
+\mkdot{cpeople}{6.254}{-0.25}
+\mkiv{cjev}{11.991}{12.184}{-0.145}
+\mkdot{cjev}{12.094}{-0.145}
+\mkiv{cdrex}{11.932}{12.116}{-0.355}
+\mkdia{cdrex}{12.034}{-0.355}
+\node[lbl,anchor=base west] at (13,-0.34) {\textbf{usable}};
+\fill[cgrid] (14.75,-0.3) rectangle (15.45,-0.2);
+\fill[cpeople] (14.75,-0.3) rectangle (15.45,-0.2);
+\node[lbl,anchor=base east] at (16.3,-0.34) {100\%};
+\node[lbl,anchor=base east] at (2.5,-0.84) {Disappointment};
+\mkiv{cpeople}{6.042}{6.342}{-0.75}
+\mkdot{cpeople}{6.214}{-0.75}
+\mkiv{cjev}{11.253}{11.778}{-0.645}
+\mkdot{cjev}{11.519}{-0.645}
+\mkiv{cdrex}{11.135}{11.565}{-0.855}
+\mkdia{cdrex}{11.355}{-0.855}
+\node[lbl,anchor=base west] at (13,-0.84) {\textbf{usable}};
+\fill[cgrid] (14.75,-0.8) rectangle (15.45,-0.7);
+\fill[cpeople] (14.75,-0.8) rectangle (15.45,-0.7);
+\node[lbl,anchor=base east] at (16.3,-0.84) {100\%};
+\node[lbl,anchor=base east] at (2.5,-1.34) {Self-critical};
+\mkiv{cpeople}{5.829}{6.188}{-1.25}
+\mkdot{cpeople}{6.025}{-1.25}
+\mkiv{cjev}{11.282}{11.775}{-1.145}
+\mkdot{cjev}{11.534}{-1.145}
+\mkiv{cdrex}{11.305}{11.747}{-1.355}
+\mkdia{cdrex}{11.526}{-1.355}
+\node[lbl,anchor=base west] at (13,-1.34) {\textbf{usable}};
+\fill[cgrid] (14.75,-1.3) rectangle (15.45,-1.2);
+\fill[cpeople] (14.75,-1.3) rectangle (15.45,-1.2);
+\node[lbl,anchor=base east] at (16.3,-1.34) {100\%};
+\node[lbl,anchor=base east] at (2.5,-1.84) {Self-disclosure};
+\mkiv{cpeople}{5.677}{6.05}{-1.75}
+\mkdot{cpeople}{5.871}{-1.75}
+\mkiv{cjev}{11.547}{11.801}{-1.645}
+\mkdot{cjev}{11.677}{-1.645}
+\mkiv{cdrex}{11.754}{12.021}{-1.855}
+\mkdia{cdrex}{11.9}{-1.855}
+\node[lbl,anchor=base west] at (13,-1.84) {\textbf{usable}};
+\fill[cgrid] (14.75,-1.8) rectangle (15.45,-1.7);
+\fill[cpeople] (14.75,-1.8) rectangle (15.45,-1.7);
+\node[lbl,anchor=base east] at (16.3,-1.84) {100\%};
+\node[lbl,anchor=base east] at (2.5,-2.34) {Calm};
+\mkiv{cpeople}{4.947}{5.532}{-2.25}
+\mkdot{cpeople}{5.276}{-2.25}
+\mkiv{cjev}{10.794}{11.434}{-2.145}
+\mkdot{cjev}{11.124}{-2.145}
+\mkiv{cdrex}{10.875}{11.505}{-2.355}
+\mkdia{cdrex}{11.207}{-2.355}
+\node[lbl,anchor=base west] at (13,-2.34) {open};
+\fill[cgrid] (14.75,-2.3) rectangle (15.45,-2.2);
+\fill[cpeople] (14.75,-2.3) rectangle (15.184,-2.2);
+\node[lbl,anchor=base east] at (16.3,-2.34) {62\%};
+\node[lbl,anchor=base east] at (2.5,-2.84) {Persistence};
+\mkiv{cpeople}{4.661}{5.387}{-2.75}
+\mkdot{cpeople}{5.079}{-2.75}
+\mkiv{cjev}{10.739}{11.405}{-2.645}
+\mkdot{cjev}{11.07}{-2.645}
+\mkiv{cdrex}{10.524}{11.205}{-2.855}
+\mkdia{cdrex}{10.87}{-2.855}
+\node[lbl,anchor=base west] at (13,-2.84) {open};
+\fill[cgrid] (14.75,-2.8) rectangle (15.45,-2.7);
+\fill[cpeople] (14.75,-2.8) rectangle (14.879,-2.7);
+\node[lbl,anchor=base east] at (16.3,-2.84) {18\%};
+\node[lbl,anchor=base east] at (2.5,-3.34) {Narrative};
+\mkiv{cpeople}{4.598}{5.352}{-3.25}
+\mkdot{cpeople}{5.026}{-3.25}
+\mkiv{cjev}{9.958}{10.651}{-3.145}
+\mkdot{cjev}{10.31}{-3.145}
+\mkiv{cdrex}{10.427}{11.07}{-3.355}
+\mkdia{cdrex}{10.745}{-3.355}
+\node[lbl,anchor=base west] at (13,-3.34) {open};
+\fill[cgrid] (14.75,-3.3) rectangle (15.45,-3.2);
+\fill[cpeople] (14.75,-3.3) rectangle (14.829,-3.2);
+\node[lbl,anchor=base east] at (16.3,-3.34) {11\%};
+\node[lbl,anchor=base east] at (2.5,-3.84) {Energetic};
+\mkiv{cpeople}{4.673}{5.256}{-3.75}
+\mkdot{cpeople}{4.907}{-3.75}
+\mkiv{cjev}{11.128}{11.518}{-3.645}
+\mkdot{cjev}{11.345}{-3.645}
+\mkiv{cdrex}{10.876}{11.232}{-3.855}
+\mkdia{cdrex}{11.078}{-3.855}
+\node[lbl,anchor=base west] at (13,-3.84) {borderline};
+\fill[cgrid] (14.75,-3.8) rectangle (15.45,-3.7);
+\fill[cpeople] (14.75,-3.8) rectangle (14.78,-3.7);
+\node[lbl,anchor=base east] at (16.3,-3.84) {3\%};
+\node[lbl,anchor=base east] at (2.5,-4.34) {Humor};
+\mkiv{cpeople}{4.54}{5.286}{-4.25}
+\mkdot{cpeople}{4.899}{-4.25}
+\mkiv{cjev}{10.954}{11.516}{-4.145}
+\mkdot{cjev}{11.281}{-4.145}
+\mkiv{cdrex}{10.717}{11.253}{-4.355}
+\mkdia{cdrex}{11}{-4.355}
+\node[lbl,anchor=base west] at (13,-4.34) {borderline};
+\fill[cgrid] (14.75,-4.3) rectangle (15.45,-4.2);
+\fill[cpeople] (14.75,-4.3) rectangle (14.798,-4.2);
+\node[lbl,anchor=base east] at (16.3,-4.34) {7\%};
+\node[lbl,anchor=base east] at (2.5,-4.84) {Compassion};
+\mkiv{cpeople}{4.264}{5.197}{-4.75}
+\mkdot{cpeople}{4.783}{-4.75}
+\mkiv{cjev}{10.066}{10.872}{-4.645}
+\mkdot{cjev}{10.473}{-4.645}
+\mkiv{cdrex}{10.237}{10.909}{-4.855}
+\mkdia{cdrex}{10.56}{-4.855}
+\node[lbl,anchor=base west] at (13,-4.84) {borderline};
+\fill[cgrid] (14.75,-4.8) rectangle (15.45,-4.7);
+\fill[cpeople] (14.75,-4.8) rectangle (14.78,-4.7);
+\node[lbl,anchor=base east] at (16.3,-4.84) {2\%};
+\node[lbl,anchor=base east] at (2.5,-5.34) {Persuasion};
+\mkiv{cpeople}{4.112}{5.004}{-5.25}
+\mkdot{cpeople}{4.607}{-5.25}
+\mkiv{cjev}{10.495}{11.166}{-5.145}
+\mkdot{cjev}{10.851}{-5.145}
+\mkiv{cdrex}{10.557}{11.137}{-5.355}
+\mkdia{cdrex}{10.854}{-5.355}
+\node[lbl,anchor=base west] at (13,-5.34) {open};
+\fill[cgrid] (14.75,-5.3) rectangle (15.45,-5.2);
+\node[lbl,anchor=base east] at (16.3,-5.34) {0\%};
+\node[lbl,anchor=base east] at (2.5,-5.84) {Hedging};
+\mkiv{cpeople}{4.131}{5.046}{-5.75}
+\mkdot{cpeople}{4.584}{-5.75}
+\mkiv{cjev}{10.519}{11.154}{-5.645}
+\mkdot{cjev}{10.852}{-5.645}
+\mkiv{cdrex}{10.557}{11.095}{-5.855}
+\mkdia{cdrex}{10.83}{-5.855}
+\node[lbl,anchor=base west] at (13,-5.84) {borderline};
+\fill[cgrid] (14.75,-5.8) rectangle (15.45,-5.7);
+\fill[cpeople] (14.75,-5.8) rectangle (14.78,-5.7);
+\node[lbl,anchor=base east] at (16.3,-5.84) {1\%};
+\end{tikzpicture}%

@@ -1,0 +1,77 @@
+% Do people read transcripts as the models do? Two rating studies: public report.
+% Build: ./build.sh (pdflatex three times; the files in gen/ are generated from the results of ../replicate.py).
+\documentclass[11pt,letterpaper,parskip=half,headings=small,numbers=noenddot,captions=tableheading,abstract=on]{scrartcl}
+\usepackage[margin=1in,headheight=15pt,footskip=28pt]{geometry}
+\input{preamble}
+\usepackage{xurl}
+\usepackage[headsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\normalfont\sffamily\footnotesize Do people read transcripts as the models do?}
+\ohead{\normalfont\sffamily\footnotesize Two rating studies}
+\cfoot{\normalfont\sffamily\footnotesize\pagemark}
+\usepackage[hidelinks,pdftitle={Do people read transcripts as the models do? Two rating studies},pdfsubject={Human ratings of transcript excerpts compared with two language models' ratings}]{hyperref}
+\setcapindent{0pt}
+\usepackage[section]{placeins}
+\DeclareTOCStyleEntry[beforeskip=0.55em plus 1pt]{tocline}{section}
+\AfterTOCHead[toc]{\small}
+\renewcommand{\topfraction}{0.92}\renewcommand{\bottomfraction}{0.85}\renewcommand{\textfraction}{0.08}\renewcommand{\floatpagefraction}{0.8}
+\setcounter{topnumber}{3}\setcounter{bottomnumber}{2}\setcounter{totalnumber}{4}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\emergencystretch}{2em}
+
+\subject{HIMR transcript analysis \textperiodcentered{} human-rating studies}
+\title{Do people read transcripts as the models do?}
+\subtitle{Two studies in which people rated transcript excerpts\\ that two language models had rated}
+\author{}
+\date{16 November 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent The transcript analysis of this archive rests on two language models, \jev{} and \drex{}, that rate
+passages of machine transcripts on a bank of questions; eight dimensions are computed from the ratings. Until now
+no person had rated any passage. In two studies, raters recruited through CloudResearch Connect read 250-word
+excerpts and answered the questions the models answer. In the first study 205 raters rated 160 excerpts on twelve
+questions. By rules fixed in advance, four questions are usable (positive tone, disappointment, self-critical
+wording, self-disclosure), eight are not settled, and none is misread by the models. The second study was
+designed on what the first left open: 211 raters, two marker questions for each of the eight dimensions, two
+passages from each of 80 randomly drawn recordings, and a design in which every rater reads a different mix of
+excerpts, so that raters' general levels can be estimated and taken out. By the same rules, four dimensions are
+usable with their whole 95\% interval above the lines (direct argument, positive tone versus disappointment,
+self-disclosure and self-criticism, energetic versus calm), three lie at the lines, and for one the raters do
+not agree, because of a question that people cannot rate. The two models follow people equally well. Analyses
+added afterwards show that the models' correlations with people repeat from one study to the next; that a model
+is closer to what many readers would say together than a single reader is; that the models follow the difference
+between two passages of one recording, not only how a recording sounds in general; and that on one dimension,
+care and regard for others, a model's score does not mean the same in livestreams as in videos. A third model
+released after both studies, d1.2-ultra, follows people to the same degree as the first two and misses where
+they miss. The models' rankings are supported for four dimensions. Their levels are their own.
+\end{abstract}
+
+\begin{center}
+\begin{minipage}{0.92\textwidth}\footnotesize\sffamily\color{cpeople}
+\textbf{What this report is about.} It describes how people and two language models rate the \emph{wording} of
+excerpts of machine transcripts. The ratings are not facts about any person's mind, motives or private life, and
+an excerpt can hold more than one voice. Results that were fixed in advance are kept apart from analyses added
+after the results had been read, which carry less weight. The ratings, without anything that identifies a rater, and a script that recomputes
+every number are published with this report (Section~\ref{sec:materials}).
+\end{minipage}
+\end{center}
+
+\vspace{1ex}
+\tableofcontents
+\clearpage
+
+\input{sections/1-summary}
+\input{sections/2-question}
+\input{sections/3-first}
+\input{sections/4-second}
+\input{sections/5-further}
+\input{sections/5x-third}
+\input{sections/6-discussion}
+\input{sections/7-materials}
+\appendix
+\input{sections/8-appendix}
+\end{document}

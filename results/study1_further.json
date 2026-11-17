@@ -1,0 +1,1355 @@
+{
+ "questions": {
+  "affect_valence": {
+   "resampling": {
+    "verdicts": {
+     "usable": 1.0,
+     "borderline": 0.0,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.7235254423194538,
+    "one_rater_interval": [
+     0.6821293795685771,
+     0.7597743895837452
+    ],
+    "jev14": {
+     "correlation": 0.9698732542411646,
+     "interval": [
+      0.9452603374257557,
+      0.9907056470768844
+     ],
+     "raters_worth": 14.427952905709727
+    },
+    "drex": {
+     "correlation": 0.954361525033872,
+     "interval": [
+      0.927785394945253,
+      0.9792069996621237
+     ],
+     "raters_worth": 9.295121539076103
+    }
+   },
+   "levels": {
+    "people_mean": 1.3757223347849055,
+    "jev14": {
+     "model_mean": 1.4178114501428252,
+     "minus_people": 0.042089115357919704,
+     "minus_people_interval": [
+      -0.01383930401736303,
+      0.10361614053101847
+     ],
+     "slope": 0.6815071978638118
+    },
+    "drex": {
+     "model_mean": 1.7084112522603985,
+     "minus_people": 0.332688917475493,
+     "minus_people_interval": [
+      0.27676049810021025,
+      0.3942159426485918
+     ],
+     "slope": 1.0907920399185476
+    }
+   }
+  },
+  "style_hedging": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.007,
+     "borderline": 0.783,
+     "unclear rubric": 0.21,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.3724588578927037,
+    "one_rater_interval": [
+     0.3031848529983988,
+     0.4546654991097765
+    ],
+    "jev14": {
+     "correlation": 0.8939441726267704,
+     "interval": [
+      0.7600473801364409,
+      0.9973433103601256
+     ],
+     "raters_worth": 24.70040132409851
+    },
+    "drex": {
+     "correlation": 0.8860295146264178,
+     "interval": [
+      0.7573842626497788,
+      0.9903932814344769
+     ],
+     "raters_worth": 22.67464097026921
+    }
+   },
+   "levels": {
+    "people_mean": 1.259621177712084,
+    "jev14": {
+     "model_mean": 2.4262589138902944,
+     "minus_people": 1.1666377361782103,
+     "minus_people_interval": [
+      1.0918063716347055,
+      1.2348926853493536
+     ],
+     "slope": 0.49282353979311894
+    },
+    "drex": {
+     "model_mean": 1.455620852236964,
+     "minus_people": 0.19599967452487999,
+     "minus_people_interval": [
+      0.12116830998137515,
+      0.26425462369602326
+     ],
+     "slope": 0.6745758187421282
+    }
+   }
+  },
+  "style_energy": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.028,
+     "borderline": 0.972,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.4248176415216457,
+    "one_rater_interval": [
+     0.38264564651229077,
+     0.48137618615865346
+    ],
+    "jev14": {
+     "correlation": 0.9864398847135543,
+     "interval": [
+      0.8957955684200943,
+      1.0
+     ],
+     "raters_worth": 164.04469598862028
+    },
+    "drex": {
+     "correlation": 0.8984556599805795,
+     "interval": [
+      0.8140334747088395,
+      0.9401198861565202
+     ],
+     "raters_worth": 19.015023755133626
+    }
+   },
+   "levels": {
+    "people_mean": 1.8878294319236593,
+    "jev14": {
+     "model_mean": 2.5015853553157594,
+     "minus_people": 0.6137559233921002,
+     "minus_people_interval": [
+      0.5492983609378634,
+      0.6785145437251204
+     ],
+     "slope": 0.7244577650863171
+    },
+    "drex": {
+     "model_mean": 1.3523303874719186,
+     "minus_people": -0.5354990444517407,
+     "minus_people_interval": [
+      -0.5999566069059774,
+      -0.4707404241187204
+     ],
+     "slope": 1.0002320198562547
+    }
+   }
+  },
+  "style_compassion": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.016,
+     "borderline": 0.907,
+     "unclear rubric": 0.077,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.40408753934958036,
+    "one_rater_interval": [
+     0.31804903990516736,
+     0.4743640044734635
+    ],
+    "jev14": {
+     "correlation": 0.7208553162293746,
+     "interval": [
+      0.5745821746319482,
+      0.8865684426973834
+     ],
+     "raters_worth": 5.543042738290783
+    },
+    "drex": {
+     "correlation": 0.750173690428816,
+     "interval": [
+      0.6363128616458805,
+      0.9144564313936552
+     ],
+     "raters_worth": 6.5952318715824765
+    }
+   },
+   "levels": {
+    "people_mean": 0.6290264790990542,
+    "jev14": {
+     "model_mean": 0.3927407017423534,
+     "minus_people": -0.23628577735670075,
+     "minus_people_interval": [
+      -0.30211283635633657,
+      -0.17569723320973427
+     ],
+     "slope": 0.5207058541898452
+    },
+    "drex": {
+     "model_mean": 0.26696131648221355,
+     "minus_people": -0.36206516261684063,
+     "minus_people_interval": [
+      -0.42789222161647644,
+      -0.30147661846987417
+     ],
+     "slope": 0.9070026791921757
+    }
+   }
+  },
+  "rhetoric_humor": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.068,
+     "borderline": 0.932,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.423234279303053,
+    "one_rater_interval": [
+     0.36999406181765404,
+     0.49620857820323055
+    ],
+    "jev14": {
+     "correlation": 0.9678990387387103,
+     "interval": [
+      0.8389772669115535,
+      1.0
+     ],
+     "raters_worth": 67.96000951773777
+    },
+    "drex": {
+     "correlation": 0.8752059621249382,
+     "interval": [
+      0.766988856436245,
+      0.9565935699552995
+     ],
+     "raters_worth": 15.000021716740344
+    }
+   },
+   "levels": {
+    "people_mean": 0.6256236600439201,
+    "jev14": {
+     "model_mean": 1.2261720277813644,
+     "minus_people": 0.6005483677374442,
+     "minus_people_interval": [
+      0.5448697530928996,
+      0.6485773132323723
+     ],
+     "slope": 0.4410099227089544
+    },
+    "drex": {
+     "model_mean": 0.8973328090438573,
+     "minus_people": 0.27170914899993714,
+     "minus_people_interval": [
+      0.21603053435539257,
+      0.31973809449486523
+     ],
+     "slope": 0.5090162934674464
+    }
+   }
+  },
+  "rhetoric_self_disclosure": {
+   "resampling": {
+    "verdicts": {
+     "usable": 1.0,
+     "borderline": 0.0,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.617025964663914,
+    "one_rater_interval": [
+     0.5700272384973505,
+     0.6639206256796769
+    ],
+    "jev14": {
+     "correlation": 0.9130223540502264,
+     "interval": [
+      0.874628570561448,
+      0.9508723262379856
+     ],
+     "raters_worth": 8.149192415407438
+    },
+    "drex": {
+     "correlation": 0.9740116149271767,
+     "interval": [
+      0.9344288741991347,
+      1.0
+     ],
+     "raters_worth": 30.080061494318652
+    }
+   },
+   "levels": {
+    "people_mean": 1.854793771793966,
+    "jev14": {
+     "model_mean": 2.643568499898987,
+     "minus_people": 0.7887747281050208,
+     "minus_people_interval": [
+      0.7106570386136225,
+      0.861260007148049
+     ],
+     "slope": 0.7224759051162168
+    },
+    "drex": {
+     "model_mean": 1.6438180626071206,
+     "minus_people": -0.21097570918684538,
+     "minus_people_interval": [
+      -0.2890933986782437,
+      -0.13849043014381726
+     ],
+     "slope": 0.9015659276875394
+    }
+   }
+  },
+  "rhetoric_persuasion": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.003,
+     "borderline": 0.834,
+     "unclear rubric": 0.163,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.37610151114017853,
+    "one_rater_interval": [
+     0.31064596923491816,
+     0.4421286152959303
+    ],
+    "jev14": {
+     "correlation": 0.8879627942530582,
+     "interval": [
+      0.750456400075634,
+      0.9980302362367169
+     ],
+     "raters_worth": 22.624973895039293
+    },
+    "drex": {
+     "correlation": 0.88911204947484,
+     "interval": [
+      0.774018085911764,
+      0.9922311423790938
+     ],
+     "raters_worth": 22.904729423891443
+    }
+   },
+   "levels": {
+    "people_mean": 1.115390595896044,
+    "jev14": {
+     "model_mean": 1.2908072922030853,
+     "minus_people": 0.17541669630704138,
+     "minus_people_interval": [
+      0.09537355582437575,
+      0.2568825804723823
+     ],
+     "slope": 0.4167144960901192
+    },
+    "drex": {
+     "model_mean": 0.7553235793236551,
+     "minus_people": -0.3600670165723888,
+     "minus_people_interval": [
+      -0.44011015705505446,
+      -0.27860113240704787
+     ],
+     "slope": 0.6573086570067669
+    }
+   }
+  },
+  "rhetoric_narrative": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.113,
+     "borderline": 0.884,
+     "unclear rubric": 0.003,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.44432914586554423,
+    "one_rater_interval": [
+     0.3749751479256737,
+     0.5028400009875225
+    ],
+    "jev14": {
+     "correlation": 0.6298498107951274,
+     "interval": [
+      0.5290253621357528,
+      0.7398463113290246
+     ],
+     "raters_worth": 2.673145719528212
+    },
+    "drex": {
+     "correlation": 0.7697714020154273,
+     "interval": [
+      0.6719946393859765,
+      0.8948251050961885
+     ],
+     "raters_worth": 5.911821227760133
+    }
+   },
+   "levels": {
+    "people_mean": 1.7545252096171886,
+    "jev14": {
+     "model_mean": 2.080275521804947,
+     "minus_people": 0.3257503121877585,
+     "minus_people_interval": [
+      0.24281370446208847,
+      0.40983171627432263
+     ],
+     "slope": 0.471180903949174
+    },
+    "drex": {
+     "model_mean": 1.4988886771847512,
+     "minus_people": -0.25563653243243745,
+     "minus_people_interval": [
+      -0.3385731401581075,
+      -0.17155512834587336
+     ],
+     "slope": 0.5497806837767336
+    }
+   }
+  },
+  "affect_disappointment": {
+   "resampling": {
+    "verdicts": {
+     "usable": 1.0,
+     "borderline": 0.0,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.7106759306541753,
+    "one_rater_interval": [
+     0.6637553101002192,
+     0.7530426113624994
+    ],
+    "jev14": {
+     "correlation": 0.8264484359960529,
+     "interval": [
+      0.7559773427672026,
+      0.8947162407781749
+     ],
+     "raters_worth": 2.111566058905224
+    },
+    "drex": {
+     "correlation": 0.7835855101723286,
+     "interval": [
+      0.7218633399557581,
+      0.8528711891079652
+     ],
+     "raters_worth": 1.5588402764478828
+    }
+   },
+   "levels": {
+    "people_mean": 1.8304457823573623,
+    "jev14": {
+     "model_mean": 2.0145809861170227,
+     "minus_people": 0.18413520375966042,
+     "minus_people_interval": [
+      0.07076339858616013,
+      0.2843124719499813
+     ],
+     "slope": 0.7680406838945386
+    },
+    "drex": {
+     "model_mean": 1.2551243292121104,
+     "minus_people": -0.575321453145252,
+     "minus_people_interval": [
+      -0.6886932583187523,
+      -0.47514418495493105
+     ],
+     "slope": 0.9523277215334683
+    }
+   }
+  },
+  "style_calm": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.62,
+     "borderline": 0.38,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.4896216806989178,
+    "one_rater_interval": [
+     0.43181940766932303,
+     0.5454663905097387
+    ],
+    "jev14": {
+     "correlation": 0.8459181582430927,
+     "interval": [
+      0.7398674118830411,
+      0.9512389210395242
+     ],
+     "raters_worth": 7.978839213201983
+    },
+    "drex": {
+     "correlation": 0.8710780964779916,
+     "interval": [
+      0.7536238230493447,
+      0.9771728894894662
+     ],
+     "raters_worth": 9.97567942073348
+    }
+   },
+   "levels": {
+    "people_mean": 1.3934201809143871,
+    "jev14": {
+     "model_mean": 0.8891178658356839,
+     "minus_people": -0.5043023150787033,
+     "minus_people_interval": [
+      -0.5731132217032932,
+      -0.43087643236908235
+     ],
+     "slope": 0.7312123196587552
+    },
+    "drex": {
+     "model_mean": 0.8645669663968973,
+     "minus_people": -0.5288532145174898,
+     "minus_people_interval": [
+      -0.5976641211420797,
+      -0.4554273318078689
+     ],
+     "slope": 1.4003968704796559
+    }
+   }
+  },
+  "style_self_critical": {
+   "resampling": {
+    "verdicts": {
+     "usable": 1.0,
+     "borderline": 0.0,
+     "unclear rubric": 0.0,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.6566219349677962,
+    "one_rater_interval": [
+     0.606577954285847,
+     0.6986529991758458
+    ],
+    "jev14": {
+     "correlation": 0.8532580044750091,
+     "interval": [
+      0.7903905144669253,
+      0.9214405379822991
+     ],
+     "raters_worth": 3.5321213860750778
+    },
+    "drex": {
+     "correlation": 0.85137136252429,
+     "interval": [
+      0.7945214092088589,
+      0.9124359706176238
+     ],
+     "raters_worth": 3.4754193971265988
+    }
+   },
+   "levels": {
+    "people_mean": 0.7827133403186324,
+    "jev14": {
+     "model_mean": 1.0020470063216238,
+     "minus_people": 0.21933366600299142,
+     "minus_people_interval": [
+      0.14380162771596455,
+      0.2894750234051687
+     ],
+     "slope": 0.7264295553415484
+    },
+    "drex": {
+     "model_mean": 0.43727512906829796,
+     "minus_people": -0.3454382112503344,
+     "minus_people_interval": [
+      -0.4209702495373613,
+      -0.27529685384815716
+     ],
+     "slope": 1.0484723323452318
+    }
+   }
+  },
+  "style_persistence": {
+   "resampling": {
+    "verdicts": {
+     "usable": 0.184,
+     "borderline": 0.815,
+     "unclear rubric": 0.001,
+     "misread": 0.0
+    }
+   },
+   "panel": {
+    "one_rater": 0.45364117373212337,
+    "one_rater_interval": [
+     0.3858328441568572,
+     0.5129349157000004
+    ],
+    "jev14": {
+     "correlation": 0.8640556424882715,
+     "interval": [
+      0.7611038140547458,
+      0.9946348114728805
+     ],
+     "raters_worth": 11.370344175481232
+    },
+    "drex": {
+     "correlation": 0.8006017474661402,
+     "interval": [
+      0.6940573859673229,
+      0.9355811710069529
+     ],
+     "raters_worth": 6.889763275501471
+    }
+   },
+   "levels": {
+    "people_mean": 2.111794033665478,
+    "jev14": {
+     "model_mean": 2.590140883053022,
+     "minus_people": 0.478346849387544,
+     "minus_people_interval": [
+      0.3973361684277498,
+      0.5528042129853771
+     ],
+     "slope": 0.598049866971172
+    },
+    "drex": {
+     "model_mean": 1.8173295060210573,
+     "minus_people": -0.2944645276444209,
+     "minus_people_interval": [
+      -0.37547520860421507,
+      -0.2200071640465878
+     ],
+     "slope": 0.7206856449664163
+    }
+   }
+  }
+ },
+ "together": {
+  "with_panel": {
+   "jev14": {
+    "value": 0.8632939055708676,
+    "interval": [
+     0.8344305258845444,
+     0.8956222837889991
+    ]
+   },
+   "drex": {
+    "value": 0.8586465112710683,
+    "interval": [
+     0.8336344469746503,
+     0.8915976495138154
+    ]
+   }
+  },
+  "with_panel_one_rater": {
+   "value": 0.5080117585090905,
+   "interval": [
+    0.4893518549581512,
+    0.5270683850487342
+   ]
+  },
+  "questions_where_model_beats_one_rater": {
+   "jev14": 12,
+   "drex": 12
+  }
+ },
+ "dimensions": {
+  "F1": {
+   "markers": [
+    "rhetoric_persuasion",
+    "style_persistence"
+   ],
+   "names": [
+    "Persuasion",
+    "Persistence"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.6501222322797038,
+   "reliability_of_mean_interval": [
+    0.5883668537978223,
+    0.6976815966309429
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.7405129355040279,
+    "with_mean_interval": [
+     0.6831669510903834,
+     0.7898708369315194
+    ],
+    "with_panel": 0.9184069051568359
+   },
+   "dimension_drex": {
+    "with_mean": 0.7593564214669094,
+    "with_mean_interval": [
+     0.7114547605820718,
+     0.8029734718098116
+    ],
+    "with_panel": 0.9417771756758202
+   },
+   "by_the_rule_for_questions": "usable",
+   "usable_in_resamples": 0.946
+  },
+  "F2": {
+   "markers": [
+    "affect_valence",
+    "affect_disappointment"
+   ],
+   "names": [
+    "Positive tone",
+    "Disappointment"
+   ],
+   "raters": "the same five answer both",
+   "reliability_of_mean": 0.8786401194980524,
+   "reliability_of_mean_interval": [
+    0.8548079652544472,
+    0.8978628855685427
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.8298534740485828,
+    "with_mean_interval": [
+     0.8047104856382442,
+     0.8577932896245697
+    ],
+    "with_panel": 0.8853110840674806
+   },
+   "dimension_drex": {
+    "with_mean": 0.8325669001508178,
+    "with_mean_interval": [
+     0.8066385073767188,
+     0.8591573112082925
+    ],
+    "with_panel": 0.8882058435391582
+   },
+   "by_the_rule_for_questions": "usable",
+   "usable_in_resamples": 1.0
+  },
+  "F3": {
+   "markers": [
+    "rhetoric_self_disclosure",
+    "style_self_critical"
+   ],
+   "names": [
+    "Self-disclosure",
+    "Self-critical"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.8352647382123952,
+   "reliability_of_mean_interval": [
+    0.8090174050203237,
+    0.855455905145913
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.8075132632179741,
+    "with_mean_interval": [
+     0.7739079551610111,
+     0.8437217454626128
+    ],
+    "with_panel": 0.883563141190501
+   },
+   "dimension_drex": {
+    "with_mean": 0.8162447576163752,
+    "with_mean_interval": [
+     0.783543068002622,
+     0.849744735590247
+    ],
+    "with_panel": 0.8931169491207813
+   },
+   "by_the_rule_for_questions": "usable",
+   "usable_in_resamples": 1.0
+  },
+  "F4": {
+   "markers": [
+    "style_compassion"
+   ],
+   "names": [
+    "Compassion"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.504698028855931,
+   "reliability_of_mean_interval": [
+    0.36747667060259204,
+    0.6010209065608905
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.48306266288432487,
+    "with_mean_interval": [
+     0.37923741225986757,
+     0.5740634089872954
+    ],
+    "with_panel": 0.6799667348719881
+   },
+   "dimension_drex": {
+    "with_mean": 0.49117056656436836,
+    "with_mean_interval": [
+     0.3886218426961445,
+     0.5833614846569258
+    ],
+    "with_panel": 0.6913795498452205
+   },
+   "by_the_rule_for_questions": "borderline",
+   "usable_in_resamples": 0.021
+  },
+  "F5": {
+   "markers": [
+    "rhetoric_narrative"
+   ],
+   "names": [
+    "Narrative"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.5322312202652799,
+   "reliability_of_mean_interval": [
+    0.43850893288854564,
+    0.6111304892166165
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.5018437844810346,
+    "with_mean_interval": [
+     0.41359817728152326,
+     0.6003336639601218
+    ],
+    "with_panel": 0.687889018582957
+   },
+   "dimension_drex": {
+    "with_mean": 0.5074064612486899,
+    "with_mean_interval": [
+     0.442815651361654,
+     0.5841524137795312
+    ],
+    "with_panel": 0.6955139097955755
+   },
+   "by_the_rule_for_questions": "borderline",
+   "usable_in_resamples": 0.027
+  },
+  "F6": {
+   "markers": [
+    "style_energy",
+    "style_calm"
+   ],
+   "names": [
+    "Energetic",
+    "Calm"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.6961396996896407,
+   "reliability_of_mean_interval": [
+    0.6496438441149838,
+    0.7359282293489501
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.7659650355582838,
+    "with_mean_interval": [
+     0.7219874030650228,
+     0.8060755163851053
+    ],
+    "with_panel": 0.9180381831818746
+   },
+   "dimension_drex": {
+    "with_mean": 0.7127793681444627,
+    "with_mean_interval": [
+     0.6758481177531382,
+     0.7488551052117783
+    ],
+    "with_panel": 0.8542931410229829
+   },
+   "by_the_rule_for_questions": "usable",
+   "usable_in_resamples": 1.0
+  },
+  "F7": {
+   "markers": [
+    "rhetoric_humor"
+   ],
+   "names": [
+    "Humor"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.52366362786551,
+   "reliability_of_mean_interval": [
+    0.44182884805093287,
+    0.6217773819977133
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.6447097716927813,
+    "with_mean_interval": [
+     0.5719994234898768,
+     0.7015293932622202
+    ],
+    "with_panel": 0.8909186446001871
+   },
+   "dimension_drex": {
+    "with_mean": 0.5823557000263276,
+    "with_mean_interval": [
+     0.5181481561092477,
+     0.6502937751269917
+    ],
+    "with_panel": 0.8047521128466528
+   },
+   "by_the_rule_for_questions": "borderline",
+   "usable_in_resamples": 0.065
+  },
+  "F8": {
+   "markers": [
+    "style_hedging"
+   ],
+   "names": [
+    "Hedging"
+   ],
+   "raters": "five per question",
+   "reliability_of_mean": 0.45444350841525055,
+   "reliability_of_mean_interval": [
+    0.3383469900716704,
+    0.5762706627204783
+   ],
+   "dimension_jev14": {
+    "with_mean": 0.5694046515633344,
+    "with_mean_interval": [
+     0.4812873742779317,
+     0.6540710602824937
+    ],
+    "with_panel": 0.844658309016006
+   },
+   "dimension_drex": {
+    "with_mean": 0.5368285347008678,
+    "with_mean_interval": [
+     0.4614159061419199,
+     0.6113977394566628
+    ],
+    "with_panel": 0.7963346999485126
+   },
+   "by_the_rule_for_questions": "borderline",
+   "usable_in_resamples": 0.011
+  }
+ },
+ "known_groups": {
+  "random_part": {
+   "excerpts": 56,
+   "questions": {
+    "affect_valence": {
+     "people": {
+      "stream_minus_video": -0.2806382879897239,
+      "per_year": 0.10309004930783279
+     },
+     "jev14": {
+      "stream_minus_video": -0.2337248368598601,
+      "per_year": 0.06403271972356094
+     },
+     "drex": {
+      "stream_minus_video": -0.12768051023108157,
+      "per_year": 0.05039997296967763
+     }
+    },
+    "style_hedging": {
+     "people": {
+      "stream_minus_video": 0.6130285393492396,
+      "per_year": -0.08355571748044743
+     },
+     "jev14": {
+      "stream_minus_video": 0.5210299813668825,
+      "per_year": -0.12263520008728039
+     },
+     "drex": {
+      "stream_minus_video": 0.5279786410286781,
+      "per_year": -0.12885683375312237
+     }
+    },
+    "style_energy": {
+     "people": {
+      "stream_minus_video": 0.3250420704822329,
+      "per_year": -0.05448898435480639
+     },
+     "jev14": {
+      "stream_minus_video": 0.357045752531938,
+      "per_year": -0.0189335457165758
+     },
+     "drex": {
+      "stream_minus_video": 0.14732127922314722,
+      "per_year": 0.012241527578582486
+     }
+    },
+    "style_compassion": {
+     "people": {
+      "stream_minus_video": -0.046365593885473594,
+      "per_year": 0.016240679612665107
+     },
+     "jev14": {
+      "stream_minus_video": 0.21688401275738298,
+      "per_year": -0.022755726626739654
+     },
+     "drex": {
+      "stream_minus_video": 0.1459776647663329,
+      "per_year": -0.003943584678397646
+     }
+    },
+    "rhetoric_humor": {
+     "people": {
+      "stream_minus_video": 0.6335040495088371,
+      "per_year": -0.12090441693230713
+     },
+     "jev14": {
+      "stream_minus_video": 0.801178287276939,
+      "per_year": -0.10432430253638325
+     },
+     "drex": {
+      "stream_minus_video": 0.7676529125826447,
+      "per_year": -0.14054492077992478
+     }
+    },
+    "rhetoric_self_disclosure": {
+     "people": {
+      "stream_minus_video": 0.36927242165200336,
+      "per_year": -0.12835531411471404
+     },
+     "jev14": {
+      "stream_minus_video": 0.5985758992756476,
+      "per_year": -0.1694591726481278
+     },
+     "drex": {
+      "stream_minus_video": 0.4158161194596154,
+      "per_year": -0.14309708400477653
+     }
+    },
+    "rhetoric_persuasion": {
+     "people": {
+      "stream_minus_video": -0.41445972745989523,
+      "per_year": -0.006421382182427941
+     },
+     "jev14": {
+      "stream_minus_video": -0.4293219087415283,
+      "per_year": 0.09658133414506728
+     },
+     "drex": {
+      "stream_minus_video": -0.16937021339863317,
+      "per_year": 0.07416514220851637
+     }
+    },
+    "rhetoric_narrative": {
+     "people": {
+      "stream_minus_video": -0.9816546009349085,
+      "per_year": 0.018254212140259445
+     },
+     "jev14": {
+      "stream_minus_video": -0.3911559590679494,
+      "per_year": -0.06210377756992294
+     },
+     "drex": {
+      "stream_minus_video": -0.48978166435964005,
+      "per_year": -0.07385669959134253
+     }
+    },
+    "affect_disappointment": {
+     "people": {
+      "stream_minus_video": 0.14524938881306035,
+      "per_year": -0.11224682374741611
+     },
+     "jev14": {
+      "stream_minus_video": -0.08691171267706108,
+      "per_year": -0.02332574457895662
+     },
+     "drex": {
+      "stream_minus_video": -0.2438144994075097,
+      "per_year": -0.04539460309412608
+     }
+    },
+    "style_calm": {
+     "people": {
+      "stream_minus_video": -1.074815239980273,
+      "per_year": 0.02643015027673774
+     },
+     "jev14": {
+      "stream_minus_video": -0.6155265271618933,
+      "per_year": 0.05949759953984654
+     },
+     "drex": {
+      "stream_minus_video": -0.6233415533342919,
+      "per_year": 0.024520396559853202
+     }
+    },
+    "style_self_critical": {
+     "people": {
+      "stream_minus_video": 0.5830175718807747,
+      "per_year": -0.08719155842373917
+     },
+     "jev14": {
+      "stream_minus_video": 0.549629239684005,
+      "per_year": -0.06296870621547503
+     },
+     "drex": {
+      "stream_minus_video": 0.36730704923692487,
+      "per_year": -0.050116468022813374
+     }
+    },
+    "style_persistence": {
+     "people": {
+      "stream_minus_video": -0.5213161799966622,
+      "per_year": 0.05107689881990304
+     },
+     "jev14": {
+      "stream_minus_video": -0.5290602942706429,
+      "per_year": 0.023075677806276992
+     },
+     "drex": {
+      "stream_minus_video": -0.35787221292190907,
+      "per_year": 0.030894867939898776
+     }
+    }
+   },
+   "across_questions": {
+    "kind_jev14": {
+     "value": 0.9248973134312051,
+     "interval": [
+      0.7494376023218826,
+      0.9552358465281845
+     ]
+    },
+    "kind_drex": {
+     "value": 0.9212093853081558,
+     "interval": [
+      0.6993263508114147,
+      0.9453503348338496
+     ]
+    },
+    "year_jev14": {
+     "value": 0.7417887058310491,
+     "interval": [
+      0.3954183063294616,
+      0.9024683866730281
+     ]
+    },
+    "year_drex": {
+     "value": 0.7531344095161463,
+     "interval": [
+      0.45692401913117175,
+      0.8951272833816268
+     ]
+    }
+   }
+  },
+  "all_excerpts": {
+   "excerpts": 160,
+   "questions": {
+    "affect_valence": {
+     "people": {
+      "stream_minus_video": -0.5204796626307103,
+      "per_year": 0.08838793498726595
+     },
+     "jev14": {
+      "stream_minus_video": -0.5081039864472923,
+      "per_year": 0.08558105607275598
+     },
+     "drex": {
+      "stream_minus_video": -0.5124424487106309,
+      "per_year": 0.06227638119033817
+     }
+    },
+    "style_hedging": {
+     "people": {
+      "stream_minus_video": 0.08892219851591222,
+      "per_year": -0.07272249874278737
+     },
+     "jev14": {
+      "stream_minus_video": 0.047742348665792834,
+      "per_year": -0.03195638882744205
+     },
+     "drex": {
+      "stream_minus_video": -0.13201832147299442,
+      "per_year": -0.07128502822245843
+     }
+    },
+    "style_energy": {
+     "people": {
+      "stream_minus_video": 0.745824161196766,
+      "per_year": 0.014686888636110161
+     },
+     "jev14": {
+      "stream_minus_video": 0.8156208457004691,
+      "per_year": 0.033410477507734744
+     },
+     "drex": {
+      "stream_minus_video": 0.7147476601408614,
+      "per_year": 0.06417624015002123
+     }
+    },
+    "style_compassion": {
+     "people": {
+      "stream_minus_video": -0.4098493780803684,
+      "per_year": -0.09657513184776283
+     },
+     "jev14": {
+      "stream_minus_video": -0.25688785682618576,
+      "per_year": -0.06147865449780997
+     },
+     "drex": {
+      "stream_minus_video": -0.21481031507355883,
+      "per_year": -0.06497851699414921
+     }
+    },
+    "rhetoric_humor": {
+     "people": {
+      "stream_minus_video": 0.27291344996199385,
+      "per_year": -0.08678733780255349
+     },
+     "jev14": {
+      "stream_minus_video": 0.47836908738037776,
+      "per_year": -0.06373236520622046
+     },
+     "drex": {
+      "stream_minus_video": 0.44452632649166973,
+      "per_year": -0.1400953518977519
+     }
+    },
+    "rhetoric_self_disclosure": {
+     "people": {
+      "stream_minus_video": -0.004473818996635338,
+      "per_year": -0.15136640101672907
+     },
+     "jev14": {
+      "stream_minus_video": 0.2234979160636588,
+      "per_year": -0.14508760204579688
+     },
+     "drex": {
+      "stream_minus_video": -0.041104519323260244,
+      "per_year": -0.15594574427569582
+     }
+    },
+    "rhetoric_persuasion": {
+     "people": {
+      "stream_minus_video": -0.22290058657871653,
+      "per_year": -0.0016472539794479893
+     },
+     "jev14": {
+      "stream_minus_video": -0.09625528535016098,
+      "per_year": 0.043270362724119375
+     },
+     "drex": {
+      "stream_minus_video": -0.023478869090838673,
+      "per_year": 0.019267469524810548
+     }
+    },
+    "rhetoric_narrative": {
+     "people": {
+      "stream_minus_video": -0.8459385587914456,
+      "per_year": -0.014819686991476556
+     },
+     "jev14": {
+      "stream_minus_video": -0.13442308738590913,
+      "per_year": -0.04140842697719161
+     },
+     "drex": {
+      "stream_minus_video": -0.4516552673749849,
+      "per_year": -0.07954629588874461
+     }
+    },
+    "affect_disappointment": {
+     "people": {
+      "stream_minus_video": 0.2797192720836017,
+      "per_year": -0.0852703561010321
+     },
+     "jev14": {
+      "stream_minus_video": 0.25507872347198135,
+      "per_year": -0.017476192261681622
+     },
+     "drex": {
+      "stream_minus_video": 0.1073117846595852,
+      "per_year": -0.013506480729819626
+     }
+    },
+    "style_calm": {
+     "people": {
+      "stream_minus_video": -1.2036029013258427,
+      "per_year": 0.040447584439673195
+     },
+     "jev14": {
+      "stream_minus_video": -0.8015880362059326,
+      "per_year": 0.04062840921812311
+     },
+     "drex": {
+      "stream_minus_video": -0.9265452743775541,
+      "per_year": 0.0106709222569797
+     }
+    },
+    "style_self_critical": {
+     "people": {
+      "stream_minus_video": 0.3442645389564502,
+      "per_year": -0.07198668453606452
+     },
+     "jev14": {
+      "stream_minus_video": 0.354383706592343,
+      "per_year": -0.04919652260961279
+     },
+     "drex": {
+      "stream_minus_video": 0.15176235122781875,
+      "per_year": -0.03933025646967377
+     }
+    },
+    "style_persistence": {
+     "people": {
+      "stream_minus_video": -0.5040337230718096,
+      "per_year": 0.006354966792215318
+     },
+     "jev14": {
+      "stream_minus_video": -0.2833288092102648,
+      "per_year": -0.023005240401121178
+     },
+     "drex": {
+      "stream_minus_video": -0.19252064734283983,
+      "per_year": -0.021329704357144236
+     }
+    }
+   },
+   "across_questions": {
+    "kind_jev14": {
+     "value": 0.9329167699412901,
+     "interval": [
+      0.8392693622162296,
+      0.959848067836841
+     ]
+    },
+    "kind_drex": {
+     "value": 0.9398709812190359,
+     "interval": [
+      0.8522144275694906,
+      0.9727111061715301
+     ]
+    },
+    "year_jev14": {
+     "value": 0.9075141881439971,
+     "interval": [
+      0.7244377447602672,
+      0.9497167462681355
+     ]
+    },
+    "year_drex": {
+     "value": 0.8178109354678889,
+     "interval": [
+      0.654738095270518,
+      0.9146285484422481
+     ]
+    }
+   }
+  }
+ }
+}

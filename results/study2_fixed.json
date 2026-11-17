@@ -1,0 +1,2587 @@
+{
+ "sessions": {
+  "valid": 211,
+  "raters_whose_excerpts_are_not_their_set": 0,
+  "sets_with_a_valid_rater": 200,
+  "sets_with_two_or_more": 11,
+  "sets_without": 0,
+  "valid_by_form": {
+   "A": 105,
+   "B": 106
+  },
+  "valid_by_arm": {
+   "sample answers": 105,
+   "own answers only": 106
+  }
+ },
+ "raters_per_excerpt_and_form_over_five": 1.055,
+ "resamples": 1000,
+ "minutes_on_the_page": {
+  "valid": {
+   "median": 24.063566666666667,
+   "quartiles": [
+    18.12300833333333,
+    32.654525
+   ],
+   "over_25_minutes": 0.46919431279620855
+  },
+  "by_arm": {
+   "sample answers": {
+    "raters": 105,
+    "median": 24.063566666666667
+   },
+   "own answers only": {
+    "raters": 106,
+    "median": 23.947583333333334
+   }
+  }
+ },
+ "dimensions": {
+  "F1": {
+   "label": "Direct, organized argument",
+   "questions": [
+    "rhetoric_persuasion",
+    "style_persistence"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 1.7210235278809012,
+   "plain": {
+    "reliability": 0.7058134168772136,
+    "reliability_interval": [
+     0.6511134502937161,
+     0.7451530260381497
+    ],
+    "jev14_with_mean": 0.6831361852912405,
+    "jev14_interval": [
+     0.6188682336113077,
+     0.7452437310458272
+    ],
+    "drex_with_mean": 0.7153468318293397,
+    "drex_interval": [
+     0.6503912189897612,
+     0.7781731398686558
+    ],
+    "better_model_interval": [
+     0.6503912189897612,
+     0.7781731398686558
+    ],
+    "verdict": "usable",
+    "settled": true,
+    "verdict_in_resamples": {
+     "usable": 0.999,
+     "borderline": 0.001
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.724559417099387,
+    "reliability_interval": [
+     0.6697211556854846,
+     0.7721084615085557
+    ],
+    "var_true": 0.24692598530876242,
+    "noise_of_mean": 0.09386868174183763,
+    "jev14_with_panel": 0.8326170991220552,
+    "jev14_with_panel_interval": [
+     0.7717039617778169,
+     0.9035905471300972
+    ],
+    "drex_with_panel": 0.8674595986110462,
+    "drex_with_panel_interval": [
+     0.8121005085940427,
+     0.9349447428526292
+    ],
+    "jev14_with_mean": 0.7087324670350864,
+    "jev14_with_mean_interval": [
+     0.6530269718469944,
+     0.7660908408782315
+    ],
+    "drex_with_mean": 0.7383907705296214,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.470792980774519,
+    "share_plain_interval": [
+     0.2097818280094423,
+     0.6952633567112132
+    ],
+    "share_between_recordings": 0.3294347937632851,
+    "share_interval": [
+     0.05670934248057001,
+     0.5824112875734754
+    ],
+    "site_score_with_panel": 1.0,
+    "site_score_interval": [
+     0.8559548488366293,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.6564336725044709,
+    "reliability_of_two_passages": 0.38991772868464675
+   }
+  },
+  "F2": {
+   "label": "Positive tone versus disappointment",
+   "questions": [
+    "affect_valence",
+    "affect_disappointment"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": -0.17538142003084933,
+   "plain": {
+    "reliability": 0.860038881031933,
+    "reliability_interval": [
+     0.8217341514476463,
+     0.8844175917305579
+    ],
+    "jev14_with_mean": 0.7897689087372661,
+    "jev14_interval": [
+     0.7306339335080908,
+     0.8393197752527557
+    ],
+    "drex_with_mean": 0.7556931809400493,
+    "drex_interval": [
+     0.6860340017884348,
+     0.8138621728864536
+    ],
+    "better_model_interval": [
+     0.7306339335080908,
+     0.8393197752527557
+    ],
+    "verdict": "usable",
+    "settled": true,
+    "verdict_in_resamples": {
+     "usable": 1.0
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.8496547930238968,
+    "reliability_interval": [
+     0.8168300738222725,
+     0.8737298973391262
+    ],
+    "var_true": 0.48122247647623817,
+    "noise_of_mean": 0.08515163266470055,
+    "jev14_with_panel": 0.8376910050331003,
+    "jev14_with_panel_interval": [
+     0.7928255462489112,
+     0.8869000040485939
+    ],
+    "drex_with_panel": 0.7967497043581316,
+    "drex_with_panel_interval": [
+     0.7486938238667387,
+     0.8500491077211978
+    ],
+    "jev14_with_mean": 0.772156102183964,
+    "jev14_with_mean_interval": [
+     0.7259192020726325,
+     0.8195560344468932
+    ],
+    "drex_with_mean": 0.7344177536072398,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.537379853870332,
+    "share_plain_interval": [
+     0.300654852988638,
+     0.7392030301263772
+    ],
+    "share_between_recordings": 0.4882999146807891,
+    "share_interval": [
+     0.3165870657343962,
+     0.6721980528572342
+    ],
+    "site_score_with_panel": 0.8492466163981996,
+    "site_score_interval": [
+     0.7241977130264792,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.6723429190942385,
+    "reliability_of_two_passages": 0.5897257619695193
+   }
+  },
+  "F3": {
+   "label": "Self-disclosure and self-criticism",
+   "questions": [
+    "rhetoric_self_disclosure",
+    "style_self_critical"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 1.2404551826183643,
+   "plain": {
+    "reliability": 0.8367125072799172,
+    "reliability_interval": [
+     0.79830592069389,
+     0.8633988040260269
+    ],
+    "jev14_with_mean": 0.7982813965757302,
+    "jev14_interval": [
+     0.7334626987901401,
+     0.8531688741494753
+    ],
+    "drex_with_mean": 0.8064492031533212,
+    "drex_interval": [
+     0.751720667287581,
+     0.8483114761330258
+    ],
+    "better_model_interval": [
+     0.751720667287581,
+     0.8531688741494753
+    ],
+    "verdict": "usable",
+    "settled": true,
+    "verdict_in_resamples": {
+     "usable": 1.0
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.8324607117272975,
+    "reliability_interval": [
+     0.8032864832920236,
+     0.8571974316343215
+    ],
+    "var_true": 0.33935077722012197,
+    "noise_of_mean": 0.06829702217691261,
+    "jev14_with_panel": 0.8710649601918642,
+    "jev14_with_panel_interval": [
+     0.81748197700909,
+     0.9216413198199915
+    ],
+    "drex_with_panel": 0.8764070811870577,
+    "drex_with_panel_interval": [
+     0.8379841418621359,
+     0.9157008665221448
+    ],
+    "jev14_with_mean": 0.7947534410854137,
+    "jev14_with_mean_interval": [
+     0.7442729480086482,
+     0.8437613352246675
+    ],
+    "drex_with_mean": 0.7996275540823244,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.6740958119177719,
+    "share_plain_interval": [
+     0.4478557139522429,
+     0.8547464775305084
+    ],
+    "share_between_recordings": 0.6349029615904997,
+    "share_interval": [
+     0.44918017449672437,
+     0.8225598118618949
+    ],
+    "site_score_with_panel": 0.9239958549952292,
+    "site_score_interval": [
+     0.8305268286674774,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.7527453734050933,
+    "reliability_of_two_passages": 0.6955292041426998
+   }
+  },
+  "F4": {
+   "label": "Care and regard for others",
+   "questions": [
+    "style_compassion",
+    "style_respect"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 0.6369932223811895,
+   "plain": {
+    "reliability": 0.6627606820362053,
+    "reliability_interval": [
+     0.5288858528633424,
+     0.7469556297671652
+    ],
+    "jev14_with_mean": 0.5017071891950081,
+    "jev14_interval": [
+     0.30722713645339583,
+     0.668187342963943
+    ],
+    "drex_with_mean": 0.5007840498137113,
+    "drex_interval": [
+     0.30274084654320393,
+     0.6671225464298162
+    ],
+    "better_model_interval": [
+     0.30722713645339583,
+     0.668187342963943
+    ],
+    "verdict": "usable",
+    "settled": false,
+    "verdict_in_resamples": {
+     "usable": 0.501,
+     "borderline": 0.494,
+     "misread": 0.004,
+     "unclear rubric": 0.001
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.6673901424494489,
+    "reliability_interval": [
+     0.5536787796042109,
+     0.7265633555698428
+    ],
+    "var_true": 0.11413695263022354,
+    "noise_of_mean": 0.05688288325065893,
+    "jev14_with_panel": 0.6286871862509522,
+    "jev14_with_panel_interval": [
+     0.426344087454499,
+     0.7807234770401648
+    ],
+    "drex_with_panel": 0.6234691988861577,
+    "drex_with_panel_interval": [
+     0.41632131164433017,
+     0.7666756300824803
+    ],
+    "jev14_with_mean": 0.5135993939720195,
+    "jev14_with_mean_interval": [
+     0.33520061824186104,
+     0.6410270179073712
+    ],
+    "drex_with_mean": 0.5093366139966656,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.4615494491118385,
+    "share_plain_interval": [
+     0.224085280269167,
+     0.7744080855939853
+    ],
+    "share_between_recordings": 0.4404973727270849,
+    "share_interval": [
+     0.2395650824259307,
+     0.7312934792011652
+    ],
+    "site_score_with_panel": 0.7040235962898975,
+    "site_score_interval": [
+     0.4153468399746988,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.4789493960501734,
+    "reliability_of_two_passages": 0.46055699317182197
+   }
+  },
+  "F5": {
+   "label": "Narrative versus rebuttal",
+   "questions": [
+    "rhetoric_narrative",
+    "rhetoric_rebuttal"
+   ],
+   "excerpts": 159,
+   "recordings_with_both_passages": 79,
+   "people_mean": 0.34578996865295136,
+   "plain": {
+    "reliability": 0.5958741732994182,
+    "reliability_interval": [
+     0.4547916904034748,
+     0.6835880112191054
+    ],
+    "jev14_with_mean": 0.6968923044221291,
+    "jev14_interval": [
+     0.5845312041418728,
+     0.7745522304607861
+    ],
+    "drex_with_mean": 0.6445551297968466,
+    "drex_interval": [
+     0.5181747000129222,
+     0.7413373451278592
+    ],
+    "better_model_interval": [
+     0.5845312041418728,
+     0.7745522304607861
+    ],
+    "verdict": "borderline",
+    "settled": false,
+    "verdict_in_resamples": {
+     "borderline": 0.598,
+     "usable": 0.399,
+     "unclear rubric": 0.003
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.6223726468661315,
+    "reliability_interval": [
+     0.5196100893861566,
+     0.683770817519628
+    ],
+    "var_true": 0.14612908983518064,
+    "noise_of_mean": 0.08866447085710363,
+    "jev14_with_panel": 0.9110634306660907,
+    "jev14_with_panel_interval": [
+     0.8324189751130586,
+     0.9812282815581663
+    ],
+    "drex_with_panel": 0.864023457237017,
+    "drex_with_panel_interval": [
+     0.7808175015744745,
+     0.9377974951685734
+    ],
+    "jev14_with_mean": 0.7187433895278,
+    "jev14_with_mean_interval": [
+     0.6322164259957229,
+     0.7784834148092863
+    ],
+    "drex_with_mean": 0.6816332731432675,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.7264020903467101,
+    "share_plain_interval": [
+     0.38625933603454415,
+     1.0
+    ],
+    "share_between_recordings": 0.7076233592393414,
+    "share_interval": [
+     0.44724399802827436,
+     0.9890770564976914
+    ],
+    "site_score_with_panel": 0.7775496770367252,
+    "site_score_interval": [
+     0.6210530156937174,
+     0.9650994027996594
+    ],
+    "site_score_with_mean_of_two_passages": 0.630492818935237,
+    "reliability_of_two_passages": 0.6199755468501621
+   }
+  },
+  "F6": {
+   "label": "Energetic and angry versus calm",
+   "questions": [
+    "style_energy",
+    "style_calm"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 0.34532146603520886,
+   "plain": {
+    "reliability": 0.7682043928337662,
+    "reliability_interval": [
+     0.7123095731379938,
+     0.8045028624004956
+    ],
+    "jev14_with_mean": 0.8186153920736089,
+    "jev14_interval": [
+     0.7702694827445212,
+     0.8590566924602829
+    ],
+    "drex_with_mean": 0.7500479230001821,
+    "drex_interval": [
+     0.6910749279749928,
+     0.8012999726304937
+    ],
+    "better_model_interval": [
+     0.7702694827445212,
+     0.8590566924602829
+    ],
+    "verdict": "usable",
+    "settled": true,
+    "verdict_in_resamples": {
+     "usable": 1.0
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.7648585796202624,
+    "reliability_interval": [
+     0.7263247430802292,
+     0.7952302231156737
+    ],
+    "var_true": 0.22738145435291646,
+    "noise_of_mean": 0.06990416211464934,
+    "jev14_with_panel": 0.9291477970629713,
+    "jev14_with_panel_interval": [
+     0.8876258374321726,
+     0.970662947107719
+    ],
+    "drex_with_panel": 0.832622381836157,
+    "drex_with_panel_interval": [
+     0.7749390888080974,
+     0.8846456735693344
+    ],
+    "jev14_with_mean": 0.8125972960808925,
+    "jev14_with_mean_interval": [
+     0.773141301243886,
+     0.8511757203182512
+    ],
+    "drex_with_mean": 0.7281798420823669,
+    "verdict": "usable"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.759486354455414,
+    "share_plain_interval": [
+     0.5945556207819147,
+     0.9031362198935986
+    ],
+    "share_between_recordings": 0.712824234006378,
+    "share_interval": [
+     0.5502800195580339,
+     0.858018225686933
+    ],
+    "site_score_with_panel": 0.9194076950582953,
+    "site_score_interval": [
+     0.8341015593680896,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.771150297457087,
+    "reliability_of_two_passages": 0.711320413202757
+   }
+  },
+  "F7": {
+   "label": "Humor and imaginative language",
+   "questions": [
+    "rhetoric_humor",
+    "style_imaginative"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 0.9252548990497291,
+   "plain": {
+    "reliability": 0.5851102878114093,
+    "reliability_interval": [
+     0.4355318718327462,
+     0.6713505767464567
+    ],
+    "jev14_with_mean": 0.5597556038275443,
+    "jev14_interval": [
+     0.44621473377256204,
+     0.6613301761518767
+    ],
+    "drex_with_mean": 0.4932059880620266,
+    "drex_interval": [
+     0.3541886062737321,
+     0.5999468352550812
+    ],
+    "better_model_interval": [
+     0.44621473377256204,
+     0.6613301761518767
+    ],
+    "verdict": "borderline",
+    "settled": false,
+    "verdict_in_resamples": {
+     "borderline": 0.633,
+     "usable": 0.353,
+     "unclear rubric": 0.014
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.5847368836702795,
+    "reliability_interval": [
+     0.44715562321000485,
+     0.6681447656290797
+    ],
+    "var_true": 0.08644012265480341,
+    "noise_of_mean": 0.0613872593161022,
+    "jev14_with_panel": 0.7345185152154419,
+    "jev14_with_panel_interval": [
+     0.6050779798428864,
+     0.8713585255500166
+    ],
+    "drex_with_panel": 0.6483218952559948,
+    "drex_with_panel_interval": [
+     0.5000904533105333,
+     0.7859059115101146
+    ],
+    "jev14_with_mean": 0.5616722816087791,
+    "jev14_with_mean_interval": [
+     0.4404884267899034,
+     0.6692118858662
+    ],
+    "drex_with_mean": 0.4957593724081349,
+    "verdict": "borderline"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.3617411324880253,
+    "share_plain_interval": [
+     0.0870990211418054,
+     0.6568183332288466
+    ],
+    "share_between_recordings": 0.2090083503424686,
+    "share_interval": [
+     9.409463226704216e-12,
+     0.5164948450464296
+    ],
+    "site_score_with_panel": 1.0,
+    "site_score_interval": [
+     0.7396989910042333,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.5534569414375144,
+    "reliability_of_two_passages": 0.2220945948896697
+   }
+  },
+  "F8": {
+   "label": "Hedging and open-mindedness versus certainty",
+   "questions": [
+    "style_hedging",
+    "rhetoric_qualification"
+   ],
+   "excerpts": 160,
+   "recordings_with_both_passages": 80,
+   "people_mean": 1.3705201758256211,
+   "plain": {
+    "reliability": 0.34456690790456423,
+    "reliability_interval": [
+     0.16421402560781811,
+     0.4619525772633238
+    ],
+    "jev14_with_mean": 0.5101321561548458,
+    "jev14_interval": [
+     0.3897100361865986,
+     0.6253084239722798
+    ],
+    "drex_with_mean": 0.5786902272497851,
+    "drex_interval": [
+     0.4743062845722531,
+     0.68058956459731
+    ],
+    "better_model_interval": [
+     0.4743062845722531,
+     0.68058956459731
+    ],
+    "verdict": "unclear rubric",
+    "settled": false,
+    "verdict_in_resamples": {
+     "unclear rubric": 0.809,
+     "borderline": 0.191
+    }
+   },
+   "with_the_model": {
+    "reliability": 0.35569869192599585,
+    "reliability_interval": [
+     0.26763117085714794,
+     0.46555783034730897
+    ],
+    "var_true": 0.05299924356475463,
+    "noise_of_mean": 0.0960011457191657,
+    "jev14_with_panel": 0.864438743878067,
+    "jev14_with_panel_interval": [
+     0.6947916915140798,
+     0.946216161812531
+    ],
+    "drex_with_panel": 0.986986916889983,
+    "drex_with_panel_interval": [
+     0.8187176976643497,
+     1.0
+    ],
+    "jev14_with_mean": 0.5155554208386061,
+    "jev14_with_mean_interval": [
+     0.40875576269539754,
+     0.6060465788506292
+    ],
+    "drex_with_mean": 0.5886437401181414,
+    "verdict": "unclear rubric"
+   },
+   "recordings": {
+    "share_between_recordings_plain": 0.6763776399905559,
+    "share_plain_interval": [
+     0.05177853844938151,
+     1.0
+    ],
+    "share_between_recordings": 0.6066437126586411,
+    "share_interval": [
+     0.04853095447336577,
+     0.9863536980168435
+    ],
+    "site_score_with_panel": 0.7018978827722676,
+    "site_score_interval": [
+     0.44506010370583365,
+     1.0
+    ],
+    "site_score_with_mean_of_two_passages": 0.3887675432235398,
+    "reliability_of_two_passages": 0.36505433074453036
+   }
+  }
+ },
+ "dimensions_usable": {
+  "plain": 5,
+  "settled_as_usable": 4,
+  "in_resamples": [
+   4.0,
+   7.0
+  ],
+  "with_the_model": 6
+ },
+ "models": {
+  "per_dimension": {
+   "F1": {
+    "difference_jev14_minus_drex": -0.03221064653809913,
+    "interval": [
+     -0.0830660111537812,
+     0.010475691493629766
+    ]
+   },
+   "F2": {
+    "difference_jev14_minus_drex": 0.03407572779721679,
+    "interval": [
+     -0.0047660015758153535,
+     0.07387647637363308
+    ]
+   },
+   "F3": {
+    "difference_jev14_minus_drex": -0.008167806577591086,
+    "interval": [
+     -0.05243477375764859,
+     0.03011819160215357
+    ]
+   },
+   "F4": {
+    "difference_jev14_minus_drex": 0.0009231393812968447,
+    "interval": [
+     -0.08097360560698946,
+     0.06656678674110951
+    ]
+   },
+   "F5": {
+    "difference_jev14_minus_drex": 0.052337174625282534,
+    "interval": [
+     0.00046820169202395714,
+     0.12246476769867067
+    ]
+   },
+   "F6": {
+    "difference_jev14_minus_drex": 0.06856746907342681,
+    "interval": [
+     0.036269994508689424,
+     0.10444152840065189
+    ]
+   },
+   "F7": {
+    "difference_jev14_minus_drex": 0.06654961576551771,
+    "interval": [
+     -0.01479242438184539,
+     0.1499217129388323
+    ]
+   },
+   "F8": {
+    "difference_jev14_minus_drex": -0.06855807109493939,
+    "interval": [
+     -0.1266377729468363,
+     -0.015317573206163617
+    ]
+   }
+  },
+  "over_the_eight": {
+   "jev14": 0.6697861420346716,
+   "jev14_interval": [
+    0.6298806514390085,
+    0.703657905711517
+   ],
+   "drex": 0.6555965667306578,
+   "drex_interval": [
+    0.6166214909813544,
+    0.6865780779349218
+   ],
+   "difference": 0.014189575304013886,
+   "difference_interval": [
+    -0.007592756163254612,
+    0.03386915497611085
+   ],
+   "reliability": 0.6698851561343033,
+   "reliability_interval": [
+    0.6217587852003319,
+    0.6930942284285395
+   ]
+  }
+ },
+ "questions": {
+  "rhetoric_persuasion": {
+   "name": "Persuasion",
+   "dimension": "F1",
+   "form": "A",
+   "sign": 1,
+   "ratings": 818,
+   "cannot_judge": 22,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.6864221636573065,
+   "sd_rest": 0.875707976829448,
+   "reliability_of_one_rating": 0.2170300641792244,
+   "arm_effect_sample_answers_minus_own": 0.20258465922885338,
+   "arm_effect_se": 0.150734297368683,
+   "reliability": 0.5308598535242575,
+   "reliability_interval": [
+    0.42300258673611757,
+    0.6080063971296957
+   ],
+   "jev14_with_mean": 0.6268908707760329,
+   "jev14_interval": [
+    0.522938118245673,
+    0.7183163870391021
+   ],
+   "drex_with_mean": 0.5852496433484274,
+   "drex_interval": [
+    0.48206243509027424,
+    0.6960948840868432
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": {
+    "reliability": 0.45404932976708556,
+    "jev14": 0.5954966856993008,
+    "drex": 0.5962674135721608,
+    "verdict": "borderline"
+   }
+  },
+  "style_persistence": {
+   "name": "Persistence",
+   "dimension": "F1",
+   "form": "B",
+   "sign": 1,
+   "ratings": 832,
+   "cannot_judge": 16,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.6381651651944956,
+   "sd_rest": 0.8906336182113126,
+   "reliability_of_one_rating": 0.27498042874812906,
+   "arm_effect_sample_answers_minus_own": -0.17322463057914766,
+   "arm_effect_se": 0.14216479559380343,
+   "reliability": 0.6158995638735543,
+   "reliability_interval": [
+    0.5166027326901256,
+    0.6814498118237042
+   ],
+   "jev14_with_mean": 0.6477629267267264,
+   "jev14_interval": [
+    0.5601492860007303,
+    0.7296279203840115
+   ],
+   "drex_with_mean": 0.5666544786030293,
+   "drex_interval": [
+    0.42754057179120514,
+    0.6797944966960924
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.5663307978562214,
+    "jev14": 0.6476656724047899,
+    "drex": 0.6001028679216631,
+    "verdict": "borderline"
+   }
+  },
+  "affect_valence": {
+   "name": "Positive tone",
+   "dimension": "F2",
+   "form": "A",
+   "sign": 1,
+   "ratings": 819,
+   "cannot_judge": 21,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.24631410836466405,
+   "sd_rest": 0.7907098452270097,
+   "reliability_of_one_rating": 0.46303324873929613,
+   "arm_effect_sample_answers_minus_own": 0.02796070505304097,
+   "arm_effect_se": 0.07852176540886034,
+   "reliability": 0.7939830727985419,
+   "reliability_interval": [
+    0.74101109496325,
+    0.827821925715324
+   ],
+   "jev14_with_mean": 0.8458265923823898,
+   "jev14_interval": [
+    0.7937241928511514,
+    0.8868376111196901
+   ],
+   "drex_with_mean": 0.7746975419656109,
+   "drex_interval": [
+    0.706384080137967,
+    0.8311575535054666
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.8461990118606255,
+    "jev14": 0.8914498582591157,
+    "drex": 0.8771923985934051,
+    "verdict": "usable"
+   }
+  },
+  "affect_disappointment": {
+   "name": "Disappointment",
+   "dimension": "F2",
+   "form": "B",
+   "sign": -1,
+   "ratings": 835,
+   "cannot_judge": 13,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.4751754814427531,
+   "sd_rest": 0.9385256504745834,
+   "reliability_of_one_rating": 0.3803450149240616,
+   "arm_effect_sample_answers_minus_own": -0.09286780729695193,
+   "arm_effect_se": 0.11769554001864174,
+   "reliability": 0.7292644541312011,
+   "reliability_interval": [
+    0.6642010147615505,
+    0.7730312943230272
+   ],
+   "jev14_with_mean": 0.7310570474329471,
+   "jev14_interval": [
+    0.6463068556145899,
+    0.802126609712294
+   ],
+   "drex_with_mean": 0.7033949643513369,
+   "drex_interval": [
+    0.6223870030962192,
+    0.7769802579436182
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.8366326724304514,
+    "jev14": 0.7545340077419042,
+    "drex": 0.7154008521853328,
+    "verdict": "usable"
+   }
+  },
+  "rhetoric_self_disclosure": {
+   "name": "Self-disclosure",
+   "dimension": "F3",
+   "form": "B",
+   "sign": 1,
+   "ratings": 838,
+   "cannot_judge": 10,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.5835994112484941,
+   "sd_rest": 0.8044191409583262,
+   "reliability_of_one_rating": 0.45951055194942925,
+   "arm_effect_sample_answers_minus_own": 0.1916114876910315,
+   "arm_effect_se": 0.12950029982256292,
+   "reliability": 0.7837918340029137,
+   "reliability_interval": [
+    0.7409652251366214,
+    0.8151947654332581
+   ],
+   "jev14_with_mean": 0.7861092379084723,
+   "jev14_interval": [
+    0.7247098162021521,
+    0.8380000083112845
+   ],
+   "drex_with_mean": 0.8709478612268002,
+   "drex_interval": [
+    0.8349396407044629,
+    0.9022174340089258
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.7550564816026631,
+    "jev14": 0.7922452907001791,
+    "drex": 0.845166727397435,
+    "verdict": "usable"
+   }
+  },
+  "style_self_critical": {
+   "name": "Self-critical",
+   "dimension": "F3",
+   "form": "A",
+   "sign": 1,
+   "ratings": 829,
+   "cannot_judge": 11,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.35164263285478176,
+   "sd_rest": 0.7285288728576564,
+   "reliability_of_one_rating": 0.39011726009576697,
+   "arm_effect_sample_answers_minus_own": -0.031491528288131475,
+   "arm_effect_se": 0.08913237979402179,
+   "reliability": 0.7365513624191007,
+   "reliability_interval": [
+    0.6185178779939393,
+    0.7997818475784679
+   ],
+   "jev14_with_mean": 0.7839643741913567,
+   "jev14_interval": [
+    0.6983745205660705,
+    0.8428555671674202
+   ],
+   "drex_with_mean": 0.7311928768035068,
+   "drex_interval": [
+    0.6216192359839512,
+    0.8055750262236518
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.7917673385460993,
+    "jev14": 0.7579790576729579,
+    "drex": 0.7563030873562752,
+    "verdict": "usable"
+   }
+  },
+  "style_compassion": {
+   "name": "Compassion",
+   "dimension": "F4",
+   "form": "B",
+   "sign": 1,
+   "ratings": 835,
+   "cannot_judge": 13,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.5137088267880994,
+   "sd_rest": 0.6838669019758362,
+   "reliability_of_one_rating": 0.2852179733311296,
+   "arm_effect_sample_answers_minus_own": -0.09977054325552964,
+   "arm_effect_se": 0.1131976293343166,
+   "reliability": 0.6278818145435616,
+   "reliability_interval": [
+    0.47513824506244073,
+    0.726823916318129
+   ],
+   "jev14_with_mean": 0.577752699917229,
+   "jev14_interval": [
+    0.3833370594976254,
+    0.7250508306805026
+   ],
+   "drex_with_mean": 0.6185626140473466,
+   "drex_interval": [
+    0.42465291476307104,
+    0.7654796431336571
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.4959743802572858,
+    "jev14": 0.5055295498155423,
+    "drex": 0.5260902700830902,
+    "verdict": "borderline"
+   }
+  },
+  "style_respect": {
+   "name": "Respect",
+   "dimension": "F4",
+   "form": "A",
+   "sign": 1,
+   "ratings": 814,
+   "cannot_judge": 26,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.4120751077385792,
+   "sd_rest": 0.6993868931941121,
+   "reliability_of_one_rating": 0.14771835449245446,
+   "arm_effect_sample_answers_minus_own": 0.035750727826395004,
+   "arm_effect_se": 0.09768302760846377,
+   "reliability": 0.42029617312346534,
+   "reliability_interval": [
+    0.24680263503387193,
+    0.5247634861490185
+   ],
+   "jev14_with_mean": 0.4190341674270921,
+   "jev14_interval": [
+    0.26170825122067193,
+    0.5460181318328571
+   ],
+   "drex_with_mean": 0.3706408394615465,
+   "drex_interval": [
+    0.2208451930144715,
+    0.5136228571681357
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": null
+  },
+  "rhetoric_narrative": {
+   "name": "Narrative",
+   "dimension": "F5",
+   "form": "B",
+   "sign": 1,
+   "ratings": 838,
+   "cannot_judge": 10,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.48855468474841196,
+   "sd_rest": 0.8973400791189,
+   "reliability_of_one_rating": 0.23206423058366815,
+   "arm_effect_sample_answers_minus_own": -0.07949579586610199,
+   "arm_effect_se": 0.11778255075232107,
+   "reliability": 0.5698689615164743,
+   "reliability_interval": [
+    0.4289321936219722,
+    0.6648525156584614
+   ],
+   "jev14_with_mean": 0.5098762114386819,
+   "jev14_interval": [
+    0.3325862943833605,
+    0.6432788629068396
+   ],
+   "drex_with_mean": 0.5673464058576897,
+   "drex_interval": [
+    0.37518284902442894,
+    0.696360294718429
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": {
+    "reliability": 0.5537480015650476,
+    "jev14": 0.46663251551173823,
+    "drex": 0.5702952664826535,
+    "verdict": "borderline"
+   }
+  },
+  "rhetoric_rebuttal": {
+   "name": "Rebuttal",
+   "dimension": "F5",
+   "form": "A",
+   "sign": -1,
+   "ratings": 809,
+   "cannot_judge": 31,
+   "excerpts_left_out": 1,
+   "sd_levels": 0.6575328728644859,
+   "sd_rest": 0.8317716538584766,
+   "reliability_of_one_rating": 0.2117208242499292,
+   "arm_effect_sample_answers_minus_own": 0.04396089244721094,
+   "arm_effect_se": 0.14436546644771223,
+   "reliability": 0.5202856580675059,
+   "reliability_interval": [
+    0.3537065379158483,
+    0.617569847159063
+   ],
+   "jev14_with_mean": 0.6231673611654822,
+   "jev14_interval": [
+    0.4988826735628256,
+    0.7165991614050412
+   ],
+   "drex_with_mean": 0.5729447544501876,
+   "drex_interval": [
+    0.43473030843246036,
+    0.6953533952728241
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": null
+  },
+  "style_energy": {
+   "name": "Energetic",
+   "dimension": "F6",
+   "form": "A",
+   "sign": 1,
+   "ratings": 831,
+   "cannot_judge": 9,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.6269280368170249,
+   "sd_rest": 0.7626157886488142,
+   "reliability_of_one_rating": 0.24346483975637237,
+   "arm_effect_sample_answers_minus_own": -0.07111224994920662,
+   "arm_effect_se": 0.1360911089132989,
+   "reliability": 0.5736708073816461,
+   "reliability_interval": [
+    0.4500621791781825,
+    0.647486035577056
+   ],
+   "jev14_with_mean": 0.6898881744229267,
+   "jev14_interval": [
+    0.5958182359154807,
+    0.7642824075071261
+   ],
+   "drex_with_mean": 0.5914304925325218,
+   "drex_interval": [
+    0.48001503271786183,
+    0.6849810095819157
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": {
+    "reliability": 0.5254301428394494,
+    "jev14": 0.713059588121771,
+    "drex": 0.649459163988955,
+    "verdict": "borderline"
+   }
+  },
+  "style_calm": {
+   "name": "Calm",
+   "dimension": "F6",
+   "form": "B",
+   "sign": -1,
+   "ratings": 834,
+   "cannot_judge": 14,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.5072062162800514,
+   "sd_rest": 0.7756007947477292,
+   "reliability_of_one_rating": 0.3715876258825154,
+   "arm_effect_sample_answers_minus_own": -0.006713947402589297,
+   "arm_effect_se": 0.11567041625842925,
+   "reliability": 0.7168161960215134,
+   "reliability_interval": [
+    0.6505185183147618,
+    0.7675230182674092
+   ],
+   "jev14_with_mean": 0.7055690176952957,
+   "jev14_interval": [
+    0.632166482359377,
+    0.767968579223387
+   ],
+   "drex_with_mean": 0.6912446055181002,
+   "drex_interval": [
+    0.6211673215588747,
+    0.7494559662204693
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.6132607329178701,
+    "jev14": 0.6605398506650255,
+    "drex": 0.6801861269418442,
+    "verdict": "usable"
+   }
+  },
+  "rhetoric_humor": {
+   "name": "Humor",
+   "dimension": "F7",
+   "form": "A",
+   "sign": 1,
+   "ratings": 827,
+   "cannot_judge": 13,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.37851155038366807,
+   "sd_rest": 0.6353860806418058,
+   "reliability_of_one_rating": 0.2688083841365245,
+   "arm_effect_sample_answers_minus_own": -0.08939378883463536,
+   "arm_effect_se": 0.08906882154429802,
+   "reliability": 0.6108355084769613,
+   "reliability_interval": [
+    0.5010911659161789,
+    0.6778588046425457
+   ],
+   "jev14_with_mean": 0.6464229716312665,
+   "jev14_interval": [
+    0.5441922352481738,
+    0.7289543885787593
+   ],
+   "drex_with_mean": 0.6198167931479374,
+   "drex_interval": [
+    0.511244126711258,
+    0.7073065608931486
+   ],
+   "verdict_not_used": "usable",
+   "first_study": {
+    "reliability": 0.5236721414766914,
+    "jev14": 0.6977678727456585,
+    "drex": 0.6309445282661297,
+    "verdict": "borderline"
+   }
+  },
+  "style_imaginative": {
+   "name": "Imaginative",
+   "dimension": "F7",
+   "form": "B",
+   "sign": 1,
+   "ratings": 835,
+   "cannot_judge": 13,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.6111803983984673,
+   "sd_rest": 0.798155656453988,
+   "reliability_of_one_rating": 0.11098922084376762,
+   "arm_effect_sample_answers_minus_own": -0.006041497706369401,
+   "arm_effect_se": 0.13403067836412358,
+   "reliability": 0.3450096442742019,
+   "reliability_interval": [
+    0.17563851110226453,
+    0.47795548747147915
+   ],
+   "jev14_with_mean": 0.4376888630035444,
+   "jev14_interval": [
+    0.2814253968758185,
+    0.575256189685585
+   ],
+   "drex_with_mean": 0.4233377776736082,
+   "drex_interval": [
+    0.24412086677517433,
+    0.5667320381006093
+   ],
+   "verdict_not_used": "unclear rubric",
+   "first_study": null
+  },
+  "style_hedging": {
+   "name": "Hedging",
+   "dimension": "F8",
+   "form": "B",
+   "sign": 1,
+   "ratings": 836,
+   "cannot_judge": 12,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.5567002125146685,
+   "sd_rest": 0.8756194159836244,
+   "reliability_of_one_rating": 0.14259584835378847,
+   "arm_effect_sample_answers_minus_own": 0.13333411961155353,
+   "arm_effect_se": 0.12781566820809262,
+   "reliability": 0.41711181961544347,
+   "reliability_interval": [
+    0.2512734431494805,
+    0.5172271516008609
+   ],
+   "jev14_with_mean": 0.5507175747076015,
+   "jev14_interval": [
+    0.4404066545611559,
+    0.6545386579072237
+   ],
+   "drex_with_mean": 0.564388343699318,
+   "drex_interval": [
+    0.4529505897074224,
+    0.6506635005212629
+   ],
+   "verdict_not_used": "borderline",
+   "first_study": {
+    "reliability": 0.44857668824906444,
+    "jev14": 0.5957245515699691,
+    "drex": 0.5904502221068265,
+    "verdict": "borderline"
+   }
+  },
+  "rhetoric_qualification": {
+   "name": "Knowledge limits",
+   "dimension": "F8",
+   "form": "A",
+   "sign": 1,
+   "ratings": 818,
+   "cannot_judge": 22,
+   "excerpts_left_out": 0,
+   "sd_levels": 0.7093574901792646,
+   "sd_rest": 0.9189771371472019,
+   "reliability_of_one_rating": 0.029251022831526096,
+   "arm_effect_sample_answers_minus_own": 0.09831074413119625,
+   "arm_effect_se": 0.15630375382129458,
+   "reliability": 0.11003742517110743,
+   "reliability_interval": [
+    4.793150453123269e-12,
+    0.27290208271159055
+   ],
+   "jev14_with_mean": 0.11690717155451491,
+   "jev14_interval": [
+    -0.06126343147973154,
+    0.28423995124081836
+   ],
+   "drex_with_mean": 0.2119696391594077,
+   "drex_interval": [
+    0.03058941015438696,
+    0.3623687487616476
+   ],
+   "verdict_not_used": "unclear rubric",
+   "first_study": null
+  }
+ },
+ "cannot_judge": {
+  "share": 0.018957345971563955,
+  "answers": 256,
+  "raters_who_used_it": 47,
+  "by_the_ten_who_used_it_most": 141
+ },
+ "arms": {
+  "order": "first: sample answers; second: own answers only",
+  "raters": {
+   "cannot_judge": {
+    "first": 0.02217261904761905,
+    "second": 0.01577240566037736,
+    "difference": 0.0064002133872416885,
+    "interval": [
+     -0.00829416983388836,
+     0.021094596608371735
+    ],
+    "n": [
+     105,
+     106
+    ]
+   },
+   "spread": {
+    "first": 1.058502740510815,
+    "second": 1.1356384834591677,
+    "difference": -0.07713574294835279,
+    "interval": [
+     -0.13678082015477755,
+     -0.01749066574192802
+    ],
+    "n": [
+     105,
+     106
+    ]
+   },
+   "level": {
+    "first": 0.0022943643748587574,
+    "second": -0.0029306425065484787,
+    "difference": 0.005225006881407236,
+    "interval": [
+     -0.09720939860802646,
+     0.10765941237084092
+    ],
+    "n": [
+     105,
+     106
+    ]
+   },
+   "with_others": {
+    "first": 0.3502015310669355,
+    "second": 0.359770718989707,
+    "difference": -0.00956918792277145,
+    "interval": [
+     -0.051295817515467385,
+     0.032157441669924486
+    ],
+    "n": [
+     105,
+     106
+    ]
+   },
+   "with_jev14": {
+    "first": 0.3870819589195232,
+    "second": 0.3875947511592535,
+    "difference": -0.0005127922397303308,
+    "interval": [
+     -0.04896095567828244,
+     0.047935371198821776
+    ],
+    "n": [
+     105,
+     106
+    ]
+   },
+   "with_drex": {
+    "first": 0.37890603130219463,
+    "second": 0.37551213943855344,
+    "difference": 0.0033938918636411963,
+    "interval": [
+     -0.04497760523322402,
+     0.05176538896050641
+    ],
+    "n": [
+     105,
+     106
+    ]
+   }
+  },
+  "minutes": {
+   "first": 28.005954603174605,
+   "second": 27.683385062893084,
+   "difference": 0.3225695402815205,
+   "interval": [
+    -3.8453527613378906,
+    4.490491841900932
+   ],
+   "n": [
+    105,
+    106
+   ]
+  },
+  "level_per_question": {
+   "rhetoric_persuasion": {
+    "sample_answers_minus_own": 0.20258465922885338,
+    "se": 0.150734297368683
+   },
+   "style_persistence": {
+    "sample_answers_minus_own": -0.17322463057914766,
+    "se": 0.14216479559380343
+   },
+   "affect_valence": {
+    "sample_answers_minus_own": 0.02796070505304097,
+    "se": 0.07852176540886034
+   },
+   "affect_disappointment": {
+    "sample_answers_minus_own": -0.09286780729695193,
+    "se": 0.11769554001864174
+   },
+   "rhetoric_self_disclosure": {
+    "sample_answers_minus_own": 0.1916114876910315,
+    "se": 0.12950029982256292
+   },
+   "style_self_critical": {
+    "sample_answers_minus_own": -0.031491528288131475,
+    "se": 0.08913237979402179
+   },
+   "style_compassion": {
+    "sample_answers_minus_own": -0.09977054325552964,
+    "se": 0.1131976293343166
+   },
+   "style_respect": {
+    "sample_answers_minus_own": 0.035750727826395004,
+    "se": 0.09768302760846377
+   },
+   "rhetoric_narrative": {
+    "sample_answers_minus_own": -0.07949579586610199,
+    "se": 0.11778255075232107
+   },
+   "rhetoric_rebuttal": {
+    "sample_answers_minus_own": 0.04396089244721094,
+    "se": 0.14436546644771223
+   },
+   "style_energy": {
+    "sample_answers_minus_own": -0.07111224994920662,
+    "se": 0.1360911089132989
+   },
+   "style_calm": {
+    "sample_answers_minus_own": -0.006713947402589297,
+    "se": 0.11567041625842925
+   },
+   "rhetoric_humor": {
+    "sample_answers_minus_own": -0.08939378883463536,
+    "se": 0.08906882154429802
+   },
+   "style_imaginative": {
+    "sample_answers_minus_own": -0.006041497706369401,
+    "se": 0.13403067836412358
+   },
+   "style_hedging": {
+    "sample_answers_minus_own": 0.13333411961155353,
+    "se": 0.12781566820809262
+   },
+   "rhetoric_qualification": {
+    "sample_answers_minus_own": 0.09831074413119625,
+    "se": 0.15630375382129458
+   }
+  },
+  "dimensions": {
+   "sample answers": {
+    "F1": {
+     "excerpts": 100,
+     "reliability": 0.6999572554870553,
+     "reliability_interval": [
+      0.5833483056547456,
+      0.7658502468658779
+     ],
+     "jev14_with_mean": 0.6621975891791223,
+     "jev14_interval": [
+      0.48498815502878884,
+      0.8367156122206151
+     ],
+     "drex_with_mean": 0.7117550367852516,
+     "drex_interval": [
+      0.5830960316718431,
+      0.8494720675487928
+     ]
+    },
+    "F2": {
+     "excerpts": 102,
+     "reliability": 0.8835909464930751,
+     "reliability_interval": [
+      0.8429196889337294,
+      0.9072768037613388
+     ],
+     "jev14_with_mean": 0.8221000641668963,
+     "jev14_interval": [
+      0.7425851421115794,
+      0.8882794614454265
+     ],
+     "drex_with_mean": 0.7803469357059409,
+     "drex_interval": [
+      0.6806025252250381,
+      0.8590499368700731
+     ]
+    },
+    "F3": {
+     "excerpts": 103,
+     "reliability": 0.8118826416290765,
+     "reliability_interval": [
+      0.7448590962269435,
+      0.8484164631189864
+     ],
+     "jev14_with_mean": 0.7799408886404998,
+     "jev14_interval": [
+      0.6662983665199677,
+      0.8731345545196061
+     ],
+     "drex_with_mean": 0.8442637832894695,
+     "drex_interval": [
+      0.7593171106095878,
+      0.919519580342212
+     ]
+    },
+    "F4": {
+     "excerpts": 100,
+     "reliability": 0.7670164437422907,
+     "reliability_interval": [
+      0.5536596633601796,
+      0.8569922792159029
+     ],
+     "jev14_with_mean": 0.5248298045734211,
+     "jev14_interval": [
+      0.17991592576018256,
+      0.7593608215336344
+     ],
+     "drex_with_mean": 0.4758129478339205,
+     "drex_interval": [
+      0.14220195513462044,
+      0.7287148777975468
+     ]
+    },
+    "F5": {
+     "excerpts": 100,
+     "reliability": 0.6124571190412991,
+     "reliability_interval": [
+      0.36090606172054085,
+      0.7154121855468127
+     ],
+     "jev14_with_mean": 0.7598530300902511,
+     "jev14_interval": [
+      0.64231982255331,
+      0.8499986115046312
+     ],
+     "drex_with_mean": 0.7259703643908849,
+     "drex_interval": [
+      0.5920244415214149,
+      0.830496721665788
+     ]
+    },
+    "F6": {
+     "excerpts": 104,
+     "reliability": 0.7470140687472197,
+     "reliability_interval": [
+      0.6614394367502043,
+      0.7985980129572322
+     ],
+     "jev14_with_mean": 0.8817994612902358,
+     "jev14_interval": [
+      0.8091870179419357,
+      0.9375973101277429
+     ],
+     "drex_with_mean": 0.8339983701965491,
+     "drex_interval": [
+      0.7314262945457755,
+      0.9089597979033645
+     ]
+    },
+    "F7": {
+     "excerpts": 103,
+     "reliability": 0.5580776792445507,
+     "reliability_interval": [
+      0.3312145748680647,
+      0.6717242149953578
+     ],
+     "jev14_with_mean": 0.5415511146935617,
+     "jev14_interval": [
+      0.381338849483072,
+      0.6829206931327139
+     ],
+     "drex_with_mean": 0.4805349197779067,
+     "drex_interval": [
+      0.2617804655634585,
+      0.6453683294565182
+     ]
+    },
+    "F8": {
+     "excerpts": 101,
+     "reliability": 0.2552912875127946,
+     "reliability_interval": [
+      1.0889530196326728e-11,
+      0.500606177112273
+     ],
+     "jev14_with_mean": 0.4614891007687543,
+     "jev14_interval": [
+      0.24938062346973064,
+      0.6747412363065575
+     ],
+     "drex_with_mean": 0.5493369316140734,
+     "drex_interval": [
+      0.39033468167483326,
+      0.7145651563195533
+     ]
+    }
+   },
+   "own answers only": {
+    "F1": {
+     "excerpts": 110,
+     "reliability": 0.6880808051231989,
+     "reliability_interval": [
+      0.5636452821437467,
+      0.7572282772345758
+     ],
+     "jev14_with_mean": 0.7395223121211972,
+     "jev14_interval": [
+      0.6622271537837668,
+      0.8290508179331051
+     ],
+     "drex_with_mean": 0.7337254622476203,
+     "drex_interval": [
+      0.6469278255288927,
+      0.8313666561195145
+     ]
+    },
+    "F2": {
+     "excerpts": 111,
+     "reliability": 0.8370524060534619,
+     "reliability_interval": [
+      0.7822736124664769,
+      0.8743849526789464
+     ],
+     "jev14_with_mean": 0.7638091044075143,
+     "jev14_interval": [
+      0.6672137023055473,
+      0.8397042313978245
+     ],
+     "drex_with_mean": 0.7212701117158739,
+     "drex_interval": [
+      0.6200363408365662,
+      0.8052456346418779
+     ]
+    },
+    "F3": {
+     "excerpts": 111,
+     "reliability": 0.8322790472100914,
+     "reliability_interval": [
+      0.7648102556806162,
+      0.8711683635270805
+     ],
+     "jev14_with_mean": 0.8135592913891287,
+     "jev14_interval": [
+      0.7501876234349928,
+      0.8728475420381393
+     ],
+     "drex_with_mean": 0.7981691131506019,
+     "drex_interval": [
+      0.7399503384917783,
+      0.8586399617035334
+     ]
+    },
+    "F4": {
+     "excerpts": 109,
+     "reliability": 0.6774580816714865,
+     "reliability_interval": [
+      0.4743283396041911,
+      0.7686566178173047
+     ],
+     "jev14_with_mean": 0.5556870585945355,
+     "jev14_interval": [
+      0.3327386918242983,
+      0.7337265616452201
+     ],
+     "drex_with_mean": 0.6145432909987828,
+     "drex_interval": [
+      0.4111288400268403,
+      0.7718226676140828
+     ]
+    },
+    "F5": {
+     "excerpts": 110,
+     "reliability": 0.6378752970933893,
+     "reliability_interval": [
+      0.4091998012471942,
+      0.7324659846517197
+     ],
+     "jev14_with_mean": 0.7001761682454855,
+     "jev14_interval": [
+      0.512267276172778,
+      0.8259585597573048
+     ],
+     "drex_with_mean": 0.5863249076572804,
+     "drex_interval": [
+      0.34686666928224835,
+      0.7465798902957232
+     ]
+    },
+    "F6": {
+     "excerpts": 111,
+     "reliability": 0.7813002672522785,
+     "reliability_interval": [
+      0.7035881890494645,
+      0.8245973915826851
+     ],
+     "jev14_with_mean": 0.8524025620286851,
+     "jev14_interval": [
+      0.7782213141990356,
+      0.9130341621791935
+     ],
+     "drex_with_mean": 0.7728459579232972,
+     "drex_interval": [
+      0.691794304092628,
+      0.8408768763850522
+     ]
+    },
+    "F7": {
+     "excerpts": 111,
+     "reliability": 0.44322274285458374,
+     "reliability_interval": [
+      1.489238108453449e-11,
+      0.6651253237830242
+     ],
+     "jev14_with_mean": 0.6071212238743202,
+     "jev14_interval": [
+      0.4373680850317516,
+      0.7417244531102168
+     ],
+     "drex_with_mean": 0.583150407201045,
+     "drex_interval": [
+      0.3693300820829003,
+      0.7420169499498319
+     ]
+    },
+    "F8": {
+     "excerpts": 111,
+     "reliability": 0.4660192272013386,
+     "reliability_interval": [
+      1.043622063278779e-11,
+      0.6320870410597099
+     ],
+     "jev14_with_mean": 0.5402110287230036,
+     "jev14_interval": [
+      0.40947650555713805,
+      0.6709367295403147
+     ],
+     "drex_with_mean": 0.6039144242842767,
+     "drex_interval": [
+      0.48614609659867125,
+      0.7264858609854021
+     ]
+    }
+   }
+  }
+ },
+ "kinds": {
+  "video": {
+   "F1": {
+    "excerpts": 80,
+    "reliability": 0.5938550047900302,
+    "reliability_interval": [
+     0.44017541565727686,
+     0.6809708685318243
+    ],
+    "jev14_with_mean": 0.6283578650359535,
+    "jev14_interval": [
+     0.5093799969652025,
+     0.7245832897604173
+    ],
+    "drex_with_mean": 0.6714550108674965,
+    "drex_interval": [
+     0.530172166597854,
+     0.7759678919458728
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F2": {
+    "excerpts": 80,
+    "reliability": 0.8739644458402533,
+    "reliability_interval": [
+     0.8248721232328436,
+     0.8996685695256342
+    ],
+    "jev14_with_mean": 0.8414308607733909,
+    "jev14_interval": [
+     0.7735091203631138,
+     0.8928521779117046
+    ],
+    "drex_with_mean": 0.792130464419645,
+    "drex_interval": [
+     0.7016842422448822,
+     0.8643119832884353
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F3": {
+    "excerpts": 80,
+    "reliability": 0.8547913918049809,
+    "reliability_interval": [
+     0.7866044977479167,
+     0.8871601954624784
+    ],
+    "jev14_with_mean": 0.8077523337994473,
+    "jev14_interval": [
+     0.7218536965006342,
+     0.8717279481574055
+    ],
+    "drex_with_mean": 0.8290764138624517,
+    "drex_interval": [
+     0.7632617959784164,
+     0.875521058690285
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F4": {
+    "excerpts": 80,
+    "reliability": 0.6699208547830522,
+    "reliability_interval": [
+     0.4262547952254264,
+     0.7800325171622821
+    ],
+    "jev14_with_mean": 0.595336807689776,
+    "jev14_interval": [
+     0.2725449122092829,
+     0.7851700802690907
+    ],
+    "drex_with_mean": 0.6395227573740006,
+    "drex_interval": [
+     0.3521810367606043,
+     0.8161652451055376
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F5": {
+    "excerpts": 80,
+    "reliability": 0.6253969143776258,
+    "reliability_interval": [
+     0.4288448054953135,
+     0.7225690880141773
+    ],
+    "jev14_with_mean": 0.6620392132853733,
+    "jev14_interval": [
+     0.4739714602607715,
+     0.7695903656157252
+    ],
+    "drex_with_mean": 0.5948203811900873,
+    "drex_interval": [
+     0.38687845798970705,
+     0.7260736203703043
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F6": {
+    "excerpts": 80,
+    "reliability": 0.7160373604677116,
+    "reliability_interval": [
+     0.5557159643743743,
+     0.7934366084002266
+    ],
+    "jev14_with_mean": 0.7460208248765028,
+    "jev14_interval": [
+     0.6222509292832853,
+     0.8316000487485934
+    ],
+    "drex_with_mean": 0.6627137394870649,
+    "drex_interval": [
+     0.5413870463602859,
+     0.7542895036338767
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F7": {
+    "excerpts": 80,
+    "reliability": 0.5627561371445141,
+    "reliability_interval": [
+     0.28006272689277883,
+     0.7022891232168729
+    ],
+    "jev14_with_mean": 0.69427842234078,
+    "jev14_interval": [
+     0.5275579634365685,
+     0.8059753744654039
+    ],
+    "drex_with_mean": 0.6364699569846296,
+    "drex_interval": [
+     0.43817424782663916,
+     0.7392302424799119
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F8": {
+    "excerpts": 80,
+    "reliability": 0.35252546633161785,
+    "reliability_interval": [
+     0.1179424063201083,
+     0.49184017948574726
+    ],
+    "jev14_with_mean": 0.5836898215875994,
+    "jev14_interval": [
+     0.3967341187388623,
+     0.7344725609033734
+    ],
+    "drex_with_mean": 0.5762325988958255,
+    "drex_interval": [
+     0.4053181781860765,
+     0.7249480864280898
+    ],
+    "verdict_not_used": "unclear rubric"
+   }
+  },
+  "stream": {
+   "F1": {
+    "excerpts": 80,
+    "reliability": 0.6841918009583788,
+    "reliability_interval": [
+     0.5643604819281045,
+     0.7502577190299476
+    ],
+    "jev14_with_mean": 0.5925120078226408,
+    "jev14_interval": [
+     0.4528964697971267,
+     0.7287577184217388
+    ],
+    "drex_with_mean": 0.6543744365275862,
+    "drex_interval": [
+     0.5364344437789574,
+     0.7473392082078149
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F2": {
+    "excerpts": 80,
+    "reliability": 0.8236140958762326,
+    "reliability_interval": [
+     0.7433441112915427,
+     0.8697105289069775
+    ],
+    "jev14_with_mean": 0.7235299743694966,
+    "jev14_interval": [
+     0.6304649684160832,
+     0.7996269120409326
+    ],
+    "drex_with_mean": 0.7070592366669034,
+    "drex_interval": [
+     0.6004200066370435,
+     0.79127460238398
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F3": {
+    "excerpts": 80,
+    "reliability": 0.7966691823154922,
+    "reliability_interval": [
+     0.7173865968898545,
+     0.8380067524881354
+    ],
+    "jev14_with_mean": 0.7641512499370422,
+    "jev14_interval": [
+     0.6589975492590372,
+     0.8450277013025161
+    ],
+    "drex_with_mean": 0.7634734039921333,
+    "drex_interval": [
+     0.6623102222231213,
+     0.8350695305387068
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F4": {
+    "excerpts": 80,
+    "reliability": 0.6424744004709716,
+    "reliability_interval": [
+     0.43260764419748204,
+     0.7363664268188024
+    ],
+    "jev14_with_mean": 0.5142521698310137,
+    "jev14_interval": [
+     0.3809468049167291,
+     0.6333063226139962
+    ],
+    "drex_with_mean": 0.3935237390100392,
+    "drex_interval": [
+     0.22350505619467967,
+     0.5438013769553142
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F5": {
+    "excerpts": 79,
+    "reliability": 0.4351313651024078,
+    "reliability_interval": [
+     0.15721672012420132,
+     0.5958925095239314
+    ],
+    "jev14_with_mean": 0.6432336929276763,
+    "jev14_interval": [
+     0.48309818272842664,
+     0.7616195850232993
+    ],
+    "drex_with_mean": 0.5943691823063372,
+    "drex_interval": [
+     0.4372472467247683,
+     0.7227331416394042
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F6": {
+    "excerpts": 80,
+    "reliability": 0.6633281601281116,
+    "reliability_interval": [
+     0.5248453436163705,
+     0.7478060935114437
+    ],
+    "jev14_with_mean": 0.7787898291243351,
+    "jev14_interval": [
+     0.6911542929974989,
+     0.8440672636479056
+    ],
+    "drex_with_mean": 0.7264868508730339,
+    "drex_interval": [
+     0.6083613463382209,
+     0.8099454177150107
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F7": {
+    "excerpts": 80,
+    "reliability": 0.603787194330476,
+    "reliability_interval": [
+     0.40368148380968893,
+     0.7004822945510943
+    ],
+    "jev14_with_mean": 0.41967779550914064,
+    "jev14_interval": [
+     0.21839274721936483,
+     0.5728379188356194
+    ],
+    "drex_with_mean": 0.3535825713108305,
+    "drex_interval": [
+     0.15667061136395308,
+     0.5175625659520293
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F8": {
+    "excerpts": 80,
+    "reliability": 0.34420910807890703,
+    "reliability_interval": [
+     0.00878075693041964,
+     0.515250189839721
+    ],
+    "jev14_with_mean": 0.46049383339032574,
+    "jev14_interval": [
+     0.29327437738556494,
+     0.617611335871168
+    ],
+    "drex_with_mean": 0.5860949375457362,
+    "drex_interval": [
+     0.4414346958665798,
+     0.7160868363038912
+    ],
+    "verdict_not_used": "unclear rubric"
+   }
+  }
+ },
+ "periods": {
+  "2015-2018": {
+   "F1": {
+    "excerpts": 20,
+    "reliability": 0.5339233387894559,
+    "reliability_interval": [
+     0.18568268870806073,
+     0.6604865830615142
+    ],
+    "jev14_with_mean": 0.6628977306694607,
+    "jev14_interval": [
+     0.42566207541835915,
+     0.8593180704647685
+    ],
+    "drex_with_mean": 0.6221790576958917,
+    "drex_interval": [
+     0.38652857305129784,
+     0.7870682436768607
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F2": {
+    "excerpts": 20,
+    "reliability": 0.8339983388982696,
+    "reliability_interval": [
+     0.6373135543049342,
+     0.8877812120814917
+    ],
+    "jev14_with_mean": 0.7916852661637923,
+    "jev14_interval": [
+     0.5919051348321114,
+     0.9296252434084065
+    ],
+    "drex_with_mean": 0.6828110927012753,
+    "drex_interval": [
+     0.3642618755635675,
+     0.8712028299872611
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F3": {
+    "excerpts": 20,
+    "reliability": 0.8031489196664867,
+    "reliability_interval": [
+     0.2790983772114478,
+     0.8908039459339003
+    ],
+    "jev14_with_mean": 0.6481345752374308,
+    "jev14_interval": [
+     0.28737653633999727,
+     0.865984963578721
+    ],
+    "drex_with_mean": 0.6564814798116628,
+    "drex_interval": [
+     0.33465038083962234,
+     0.8356595421781717
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F4": {
+    "excerpts": 20,
+    "reliability": 0.537229500195398,
+    "reliability_interval": [
+     1.787671547699621e-11,
+     0.712355511024844
+    ],
+    "jev14_with_mean": 0.5885644429715324,
+    "jev14_interval": [
+     0.11162694311444696,
+     0.7978218479259651
+    ],
+    "drex_with_mean": 0.5911052691774222,
+    "drex_interval": [
+     0.13795424878333135,
+     0.8322548879616687
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F5": {
+    "excerpts": 20,
+    "reliability": 0.8133697787271315,
+    "reliability_interval": [
+     0.597994970880163,
+     0.869584154423094
+    ],
+    "jev14_with_mean": 0.8373019036094278,
+    "jev14_interval": [
+     0.6425185692569507,
+     0.9273008219860402
+    ],
+    "drex_with_mean": 0.7314745419538131,
+    "drex_interval": [
+     0.4000132317150903,
+     0.894346055830579
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F6": {
+    "excerpts": 20,
+    "reliability": 0.5159944056974156,
+    "reliability_interval": [
+     0.16070411904408627,
+     0.6384145545771683
+    ],
+    "jev14_with_mean": 0.5367823123946269,
+    "jev14_interval": [
+     0.2942228444702073,
+     0.77901427364652
+    ],
+    "drex_with_mean": 0.5407205714249593,
+    "drex_interval": [
+     0.2514798435046294,
+     0.7564847136574621
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F7": {
+    "excerpts": 20,
+    "reliability": 0.6575729910454512,
+    "reliability_interval": [
+     1.638923865748474e-11,
+     0.8408152489720908
+    ],
+    "jev14_with_mean": 0.5914277736146223,
+    "jev14_interval": [
+     -0.012926674138865316,
+     0.8230563790068559
+    ],
+    "drex_with_mean": 0.5236136704247596,
+    "drex_interval": [
+     -0.035926556238725545,
+     0.7487131098961948
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F8": {
+    "excerpts": 20,
+    "reliability": 1.0599641777548237e-11,
+    "reliability_interval": [
+     1.033131832355328e-11,
+     0.06258725083377936
+    ],
+    "jev14_with_mean": 0.4846399857287988,
+    "jev14_interval": [
+     0.23330669688075376,
+     0.6885351209298536
+    ],
+    "drex_with_mean": 0.42381552008984835,
+    "drex_interval": [
+     0.10138057573194592,
+     0.6891389957284646
+    ],
+    "verdict_not_used": "unclear rubric"
+   }
+  },
+  "2019-2021": {
+   "F1": {
+    "excerpts": 44,
+    "reliability": 0.6242799218758125,
+    "reliability_interval": [
+     0.41993077606074924,
+     0.7149795378588347
+    ],
+    "jev14_with_mean": 0.7483403467138081,
+    "jev14_interval": [
+     0.6649350031901405,
+     0.8270170634835509
+    ],
+    "drex_with_mean": 0.6885804855057672,
+    "drex_interval": [
+     0.5612204776627329,
+     0.8266144094598581
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F2": {
+    "excerpts": 44,
+    "reliability": 0.8528207159526423,
+    "reliability_interval": [
+     0.7318416416727738,
+     0.9006654084182105
+    ],
+    "jev14_with_mean": 0.8338232820571329,
+    "jev14_interval": [
+     0.7251289318281045,
+     0.904778912178306
+    ],
+    "drex_with_mean": 0.7669117580490383,
+    "drex_interval": [
+     0.6290173534468126,
+     0.8637703162240555
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F3": {
+    "excerpts": 44,
+    "reliability": 0.8577253034939463,
+    "reliability_interval": [
+     0.7830941920393808,
+     0.8879752970825568
+    ],
+    "jev14_with_mean": 0.7756166140895804,
+    "jev14_interval": [
+     0.6232708493225452,
+     0.8726856482149524
+    ],
+    "drex_with_mean": 0.7984013462839391,
+    "drex_interval": [
+     0.6825374654692118,
+     0.8812000894310593
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F4": {
+    "excerpts": 44,
+    "reliability": 0.8008756903258387,
+    "reliability_interval": [
+     0.6359443772656355,
+     0.8673905600116152
+    ],
+    "jev14_with_mean": 0.7393038601145457,
+    "jev14_interval": [
+     0.4773172847018078,
+     0.8771046513114411
+    ],
+    "drex_with_mean": 0.7525871952432277,
+    "drex_interval": [
+     0.5253291689371743,
+     0.8757707407664075
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F5": {
+    "excerpts": 44,
+    "reliability": 0.5803580733773201,
+    "reliability_interval": [
+     0.20277333842269313,
+     0.712366088633334
+    ],
+    "jev14_with_mean": 0.7424017292379649,
+    "jev14_interval": [
+     0.570181189910593,
+     0.8460933457730493
+    ],
+    "drex_with_mean": 0.7411203403844998,
+    "drex_interval": [
+     0.4929676617995593,
+     0.8659291257273322
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F6": {
+    "excerpts": 44,
+    "reliability": 0.586866475506034,
+    "reliability_interval": [
+     0.3075623398618585,
+     0.6990990691414845
+    ],
+    "jev14_with_mean": 0.7001905481044843,
+    "jev14_interval": [
+     0.5556034474679433,
+     0.8089439312562783
+    ],
+    "drex_with_mean": 0.577805213257152,
+    "drex_interval": [
+     0.4509180861827057,
+     0.7003590445157248
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F7": {
+    "excerpts": 44,
+    "reliability": 0.618001055777504,
+    "reliability_interval": [
+     0.36802664113607336,
+     0.7247121542667332
+    ],
+    "jev14_with_mean": 0.6790822802796955,
+    "jev14_interval": [
+     0.5150269735328576,
+     0.8193394675163105
+    ],
+    "drex_with_mean": 0.5816443395890157,
+    "drex_interval": [
+     0.36916069380534444,
+     0.711553212598469
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F8": {
+    "excerpts": 44,
+    "reliability": 0.5491197046282273,
+    "reliability_interval": [
+     0.31604400865532456,
+     0.6566298949638345
+    ],
+    "jev14_with_mean": 0.7009773938704835,
+    "jev14_interval": [
+     0.4980552065099486,
+     0.8336362315641919
+    ],
+    "drex_with_mean": 0.7318537609895985,
+    "drex_interval": [
+     0.5588843767989838,
+     0.8487176429338051
+    ],
+    "verdict_not_used": "borderline"
+   }
+  },
+  "2022-2025": {
+   "F1": {
+    "excerpts": 96,
+    "reliability": 0.741602245556059,
+    "reliability_interval": [
+     0.6849267212741516,
+     0.780641540490097
+    ],
+    "jev14_with_mean": 0.6630927012676049,
+    "jev14_interval": [
+     0.5647969227619402,
+     0.7477714636435185
+    ],
+    "drex_with_mean": 0.7398037644598099,
+    "drex_interval": [
+     0.6572161588363837,
+     0.8103873118919951
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F2": {
+    "excerpts": 96,
+    "reliability": 0.8676662199873495,
+    "reliability_interval": [
+     0.8206646785326991,
+     0.8939734383748816
+    ],
+    "jev14_with_mean": 0.770885461421169,
+    "jev14_interval": [
+     0.6876093953396808,
+     0.834817568841214
+    ],
+    "drex_with_mean": 0.7586805396267883,
+    "drex_interval": [
+     0.6624069036503387,
+     0.827861660785771
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F3": {
+    "excerpts": 96,
+    "reliability": 0.8018147530914305,
+    "reliability_interval": [
+     0.722454206479705,
+     0.8475138577987953
+    ],
+    "jev14_with_mean": 0.8062658463818504,
+    "jev14_interval": [
+     0.7072558478138985,
+     0.8718231770781901
+    ],
+    "drex_with_mean": 0.7978182754735361,
+    "drex_interval": [
+     0.6924197169057373,
+     0.862477879958629
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F4": {
+    "excerpts": 96,
+    "reliability": 0.5128707685282047,
+    "reliability_interval": [
+     0.30954646921075124,
+     0.6349217755226726
+    ],
+    "jev14_with_mean": 0.2065189353945327,
+    "jev14_interval": [
+     0.001072126236253355,
+     0.3908648463929188
+    ],
+    "drex_with_mean": 0.17762043312699988,
+    "drex_interval": [
+     -0.03567031852562063,
+     0.3812054412925001
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F5": {
+    "excerpts": 95,
+    "reliability": 0.4721218479860928,
+    "reliability_interval": [
+     0.24451808004879153,
+     0.6069201112274185
+    ],
+    "jev14_with_mean": 0.6046497285881267,
+    "jev14_interval": [
+     0.44257040320069263,
+     0.722778534300807
+    ],
+    "drex_with_mean": 0.5463215118525412,
+    "drex_interval": [
+     0.39501669515939725,
+     0.6698026134975945
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F6": {
+    "excerpts": 96,
+    "reliability": 0.8097338094192126,
+    "reliability_interval": [
+     0.7463529168787287,
+     0.8423313770786018
+    ],
+    "jev14_with_mean": 0.8704476862915209,
+    "jev14_interval": [
+     0.8283292103455345,
+     0.9026967966009911
+    ],
+    "drex_with_mean": 0.8045037266030216,
+    "drex_interval": [
+     0.7520294213916915,
+     0.8471926826863412
+    ],
+    "verdict_not_used": "usable"
+   },
+   "F7": {
+    "excerpts": 96,
+    "reliability": 0.5553896799495643,
+    "reliability_interval": [
+     0.3317368225485667,
+     0.6614528649547873
+    ],
+    "jev14_with_mean": 0.502809582076344,
+    "jev14_interval": [
+     0.32201412627210085,
+     0.6395489062639694
+    ],
+    "drex_with_mean": 0.44828343789807423,
+    "drex_interval": [
+     0.2613147185879637,
+     0.6054646294905195
+    ],
+    "verdict_not_used": "borderline"
+   },
+   "F8": {
+    "excerpts": 96,
+    "reliability": 0.2824036532942842,
+    "reliability_interval": [
+     1.0366630127450268e-11,
+     0.44059808523207933
+    ],
+    "jev14_with_mean": 0.36287958455424,
+    "jev14_interval": [
+     0.19976254338332736,
+     0.511090832063065
+    ],
+    "drex_with_mean": 0.4837253675585581,
+    "drex_interval": [
+     0.34800081728480986,
+     0.5986535872804352
+    ],
+    "verdict_not_used": "unclear rubric"
+   }
+  }
+ },
+ "rater_levels": {
+  "mean_sd_of_levels": 0.527692147467201,
+  "mean_sd_of_the_rest": 0.8067028441455515
+ }
+}

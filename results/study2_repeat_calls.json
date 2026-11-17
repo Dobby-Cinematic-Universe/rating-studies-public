@@ -1,0 +1,380 @@
+{
+ "jev14": {
+  "questions": {
+   "rhetoric_persuasion": {
+    "within": 0.03673738445598253,
+    "between": 0.9001684746335302,
+    "reliability_of_one_call": 0.9983371766595033
+   },
+   "style_persistence": {
+    "within": 0.03224499315139225,
+    "between": 0.6920538560699289,
+    "reliability_of_one_call": 0.9978337778432744
+   },
+   "affect_valence": {
+    "within": 0.02577345210353734,
+    "between": 1.0471251451826291,
+    "reliability_of_one_call": 0.9993945406653054
+   },
+   "affect_disappointment": {
+    "within": 0.040028635583375397,
+    "between": 0.9957322137550005,
+    "reliability_of_one_call": 0.9983865512272528
+   },
+   "rhetoric_self_disclosure": {
+    "within": 0.034926261609281924,
+    "between": 0.9029518653004314,
+    "reliability_of_one_call": 0.9985060855690434
+   },
+   "style_self_critical": {
+    "within": 0.0375575946602903,
+    "between": 0.8832867704590195,
+    "reliability_of_one_call": 0.9981952892492867
+   },
+   "style_compassion": {
+    "within": 0.027713188797634482,
+    "between": 0.472257033281126,
+    "reliability_of_one_call": 0.9965681906541174
+   },
+   "style_respect": {
+    "within": 0.03562536549520112,
+    "between": 0.49201738936614753,
+    "reliability_of_one_call": 0.9947846097545151
+   },
+   "rhetoric_narrative": {
+    "within": 0.02575020226457778,
+    "between": 0.6913798099935133,
+    "reliability_of_one_call": 0.9986147572582704
+   },
+   "rhetoric_rebuttal": {
+    "within": 0.041152662935303064,
+    "between": 0.8932071255554793,
+    "reliability_of_one_call": 0.9978817821562899
+   },
+   "style_energy": {
+    "within": 0.023383131384255063,
+    "between": 0.5670269076972211,
+    "reliability_of_one_call": 0.9983023034108434
+   },
+   "style_calm": {
+    "within": 0.026710250841203268,
+    "between": 0.6467352741569278,
+    "reliability_of_one_call": 0.998297203730113
+   },
+   "rhetoric_humor": {
+    "within": 0.0342554740151118,
+    "between": 0.7404550736518037,
+    "reliability_of_one_call": 0.9978643305505932
+   },
+   "style_imaginative": {
+    "within": 0.03909390404312842,
+    "between": 0.717710365146689,
+    "reliability_of_one_call": 0.99704176276999
+   },
+   "style_hedging": {
+    "within": 0.04257774751361717,
+    "between": 0.647156952878361,
+    "reliability_of_one_call": 0.9956900692002881
+   },
+   "rhetoric_qualification": {
+    "within": 0.045244705030902055,
+    "between": 0.767653354426914,
+    "reliability_of_one_call": 0.9965382222745898
+   }
+  },
+  "dimensions": {
+   "F1": {
+    "within": 0.039825286353113894,
+    "between": 1.028505483995539,
+    "reliability_of_one_call": 0.9985028892913577
+   },
+   "F2": {
+    "within": 0.040239454770254715,
+    "between": 1.2242754316579498,
+    "reliability_of_one_call": 0.9989208619900216
+   },
+   "F3": {
+    "within": 0.03707355642456163,
+    "between": 1.0938399828868621,
+    "reliability_of_one_call": 0.9988525802876582
+   },
+   "F4": {
+    "within": 0.040201648829256226,
+    "between": 1.058499263128504,
+    "reliability_of_one_call": 0.9985596083137338
+   },
+   "F5": {
+    "within": 0.04267301532112175,
+    "between": 1.1327161707510167,
+    "reliability_of_one_call": 0.998582743299851
+   },
+   "F6": {
+    "within": 0.03493965575847018,
+    "between": 1.2840797109654283,
+    "reliability_of_one_call": 0.9992601701451649
+   },
+   "F7": {
+    "within": 0.06169630628415869,
+    "between": 1.3460727375824002,
+    "reliability_of_one_call": 0.99790362066854
+   },
+   "F8": {
+    "within": 0.060248923951945345,
+    "between": 1.3952329812055424,
+    "reliability_of_one_call": 0.9981387870980925
+   }
+  }
+ },
+ "drex": {
+  "questions": {
+   "rhetoric_persuasion": {
+    "within": 0.044197739148437595,
+    "between": 0.570656302491018,
+    "reliability_of_one_call": 0.9940371554093314
+   },
+   "style_persistence": {
+    "within": 0.05798396797104065,
+    "between": 0.5183655143888016,
+    "reliability_of_one_call": 0.9876421399444073
+   },
+   "affect_valence": {
+    "within": 0.027857762888017407,
+    "between": 0.6626262922750131,
+    "reliability_of_one_call": 0.9982356358844097
+   },
+   "affect_disappointment": {
+    "within": 0.04964256080975275,
+    "between": 0.7964013869617068,
+    "reliability_of_one_call": 0.9961295615437827
+   },
+   "rhetoric_self_disclosure": {
+    "within": 0.04440109021747101,
+    "between": 0.8108846773590725,
+    "reliability_of_one_call": 0.9970107041393217
+   },
+   "style_self_critical": {
+    "within": 0.03687521136945071,
+    "between": 0.6151984815134833,
+    "reliability_of_one_call": 0.9964200169490319
+   },
+   "style_compassion": {
+    "within": 0.021170118115912028,
+    "between": 0.29314494773711386,
+    "reliability_of_one_call": 0.9948117292452643
+   },
+   "style_respect": {
+    "within": 0.0369297941764731,
+    "between": 0.2839405932613748,
+    "reliability_of_one_call": 0.983365348594006
+   },
+   "rhetoric_narrative": {
+    "within": 0.050625320163596665,
+    "between": 0.7175337855815314,
+    "reliability_of_one_call": 0.995046703548851
+   },
+   "rhetoric_rebuttal": {
+    "within": 0.04929626274712245,
+    "between": 0.6751012164016511,
+    "reliability_of_one_call": 0.9946962785907147
+   },
+   "style_energy": {
+    "within": 0.050949461939013646,
+    "between": 0.3519935786957658,
+    "reliability_of_one_call": 0.9794787069919464
+   },
+   "style_calm": {
+    "within": 0.0489426804410016,
+    "between": 0.3394164765263885,
+    "reliability_of_one_call": 0.9796308864507838
+   },
+   "rhetoric_humor": {
+    "within": 0.048062520860420274,
+    "between": 0.5926091046660334,
+    "reliability_of_one_call": 0.993465247676439
+   },
+   "style_imaginative": {
+    "within": 0.03825568489889226,
+    "between": 0.42979644347156226,
+    "reliability_of_one_call": 0.9921396993780988
+   },
+   "style_hedging": {
+    "within": 0.038134881711170944,
+    "between": 0.5131583247022143,
+    "reliability_of_one_call": 0.9945077509524841
+   },
+   "rhetoric_qualification": {
+    "within": 0.047809823999188004,
+    "between": 0.6176076836615195,
+    "reliability_of_one_call": 0.9940431843351214
+   }
+  },
+  "dimensions": {
+   "F1": {
+    "within": 0.06434547140194868,
+    "between": 0.9306456019468505,
+    "reliability_of_one_call": 0.9952423099475064
+   },
+   "F2": {
+    "within": 0.06002914047197153,
+    "between": 1.0612038959181522,
+    "reliability_of_one_call": 0.9968103786500907
+   },
+   "F3": {
+    "within": 0.04833714138174698,
+    "between": 0.9081353292389015,
+    "reliability_of_one_call": 0.997174911050542
+   },
+   "F4": {
+    "within": 0.04988347078861238,
+    "between": 0.8207939420883662,
+    "reliability_of_one_call": 0.9963200331685259
+   },
+   "F5": {
+    "within": 0.07575056815139447,
+    "between": 0.9047814512558949,
+    "reliability_of_one_call": 0.9930393329209152
+   },
+   "F6": {
+    "within": 0.05834507959582289,
+    "between": 0.9203517942358879,
+    "reliability_of_one_call": 0.9959972461463404
+   },
+   "F7": {
+    "within": 0.09385700109170712,
+    "between": 0.945327353958918,
+    "reliability_of_one_call": 0.9902386747982368
+   },
+   "F8": {
+    "within": 0.07044493387967579,
+    "between": 0.8030585091986798,
+    "reliability_of_one_call": 0.9923638213895777
+   }
+  }
+ },
+ "d12u": {
+  "questions": {
+   "rhetoric_persuasion": {
+    "within": 0.027383530824505935,
+    "between": 0.4749929362120104,
+    "reliability_of_one_call": 0.9966874413664069
+   },
+   "style_persistence": {
+    "within": 0.026827799151098237,
+    "between": 0.35684946866233547,
+    "reliability_of_one_call": 0.9943797934824912
+   },
+   "affect_valence": {
+    "within": 0.023378055838577907,
+    "between": 0.7200192926056574,
+    "reliability_of_one_call": 0.9989468968333032
+   },
+   "affect_disappointment": {
+    "within": 0.035950482799841046,
+    "between": 0.6409612150190194,
+    "reliability_of_one_call": 0.9968639581703315
+   },
+   "rhetoric_self_disclosure": {
+    "within": 0.0320969565502972,
+    "between": 0.6228674668353161,
+    "reliability_of_one_call": 0.9973515931713315
+   },
+   "style_self_critical": {
+    "within": 0.026318409372053625,
+    "between": 0.6541653096443056,
+    "reliability_of_one_call": 0.9983839980969922
+   },
+   "style_compassion": {
+    "within": 0.021161332415122948,
+    "between": 0.3951503575433995,
+    "reliability_of_one_call": 0.9971403193440473
+   },
+   "style_respect": {
+    "within": 0.030668158449902613,
+    "between": 0.3515443730255481,
+    "reliability_of_one_call": 0.9924469493628489
+   },
+   "rhetoric_narrative": {
+    "within": 0.026548021446208256,
+    "between": 0.41251489371167244,
+    "reliability_of_one_call": 0.9958753222508089
+   },
+   "rhetoric_rebuttal": {
+    "within": 0.02714038542160618,
+    "between": 0.477596954108074,
+    "reliability_of_one_call": 0.9967810908785707
+   },
+   "style_energy": {
+    "within": 0.027842294902120878,
+    "between": 0.3815133249477232,
+    "reliability_of_one_call": 0.9947023437150514
+   },
+   "style_calm": {
+    "within": 0.03035526742456186,
+    "between": 0.478134229895445,
+    "reliability_of_one_call": 0.9959855919937985
+   },
+   "rhetoric_humor": {
+    "within": 0.03014981844196302,
+    "between": 0.47837574882093903,
+    "reliability_of_one_call": 0.996043516079618
+   },
+   "style_imaginative": {
+    "within": 0.02667863679910076,
+    "between": 0.4257749289287298,
+    "reliability_of_one_call": 0.9960892024772926
+   },
+   "style_hedging": {
+    "within": 0.03403832253566069,
+    "between": 0.41636494339673946,
+    "reliability_of_one_call": 0.993361115062749
+   },
+   "rhetoric_qualification": {
+    "within": 0.031273657045507164,
+    "between": 0.43398385549860213,
+    "reliability_of_one_call": 0.9948339241602493
+   }
+  },
+  "dimensions": {
+   "F1": {
+    "within": 0.04626727577379746,
+    "between": 0.9615711032422937,
+    "reliability_of_one_call": 0.9976901661465963
+   },
+   "F2": {
+    "within": 0.04010724518819817,
+    "between": 1.016832551482474,
+    "reliability_of_one_call": 0.9984466416897001
+   },
+   "F3": {
+    "within": 0.040401955434980985,
+    "between": 0.9624022175605883,
+    "reliability_of_one_call": 0.9982407529302987
+   },
+   "F4": {
+    "within": 0.0441500778379826,
+    "between": 0.861938265152138,
+    "reliability_of_one_call": 0.9973831871271392
+   },
+   "F5": {
+    "within": 0.05351850996018606,
+    "between": 0.8987683017728304,
+    "reliability_of_one_call": 0.996466742080112
+   },
+   "F6": {
+    "within": 0.04454671229269085,
+    "between": 0.9704981618519981,
+    "reliability_of_one_call": 0.9978975395658634
+   },
+   "F7": {
+    "within": 0.06205618185445338,
+    "between": 0.9522357822962588,
+    "reliability_of_one_call": 0.9957709719070638
+   },
+   "F8": {
+    "within": 0.05747496905968908,
+    "between": 0.8597605410569605,
+    "reliability_of_one_call": 0.9955509634772249
+   }
+  }
+ }
+}

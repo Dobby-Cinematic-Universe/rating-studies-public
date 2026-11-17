@@ -1,0 +1,37 @@
+arm,minutes_from,minutes_to,raters
+sample answers,5,10,1
+sample answers,10,15,11
+sample answers,15,20,22
+sample answers,20,25,23
+sample answers,25,30,15
+sample answers,30,35,15
+sample answers,35,40,6
+sample answers,40,45,0
+sample answers,45,50,2
+sample answers,50,55,4
+sample answers,55,60,2
+sample answers,60,65,1
+sample answers,65,70,0
+sample answers,70,75,1
+sample answers,75,80,1
+sample answers,80,85,0
+sample answers,85,90,0
+sample answers,90,95,1
+own answers only,5,10,3
+own answers only,10,15,16
+own answers only,15,20,18
+own answers only,20,25,18
+own answers only,25,30,17
+own answers only,30,35,8
+own answers only,35,40,8
+own answers only,40,45,6
+own answers only,45,50,2
+own answers only,50,55,5
+own answers only,55,60,1
+own answers only,60,65,1
+own answers only,65,70,2
+own answers only,70,75,0
+own answers only,75,80,0
+own answers only,80,85,0
+own answers only,85,90,1
+own answers only,90,95,0

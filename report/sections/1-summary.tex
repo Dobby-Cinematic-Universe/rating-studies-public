@@ -1,0 +1,80 @@
+\section{Summary}\label{sec:summary}
+
+\paragraph{What was done.}
+The transcript analysis rests on two language models that rate passages of machine transcripts on a bank of
+questions, each with five described levels from 0 to 4, and on eight dimensions computed from those ratings. In
+two studies people rated the same text the models rated: the first 250 words of a 500-word passage, shown as
+plain text.
+\begin{itemize}
+\item \textbf{The first study} took twelve rating questions, the highest-loading questions of the eight
+  dimensions. Each of 160 excerpts was rated on each question by five people: 9{,}648 ratings by 205 raters. The
+  question is the unit of its verdicts.
+\item \textbf{The second study} took sixteen questions, two markers for each dimension, and made the dimension
+  the unit. 211 raters gave 13{,}248 ratings of 160 excerpts, two passages from each of 80 randomly drawn
+  recordings. Every rater read a different mix of excerpts, so that a rater's general level can be told apart
+  from the excerpts and taken out, and half the raters were shown no sample answers.
+\end{itemize}
+In both studies the design, the checks that decide whose ratings count, the estimators and the rules for the
+verdicts were fixed before collection. A question or dimension is \verd{usable} when the mean of five raters per
+question has a reliability of 0.60 or more and at least one model's score correlates with that mean at 0.50 or
+more.
+
+\paragraph{First study: results fixed in advance.}
+\begin{itemize}
+\item Four questions are usable: positive tone, disappointment, self-critical wording and self-disclosure. The
+  mean of five raters has a reliability of 0.76 to 0.85 and the models correlate with it at 0.72 to 0.89
+  (Figure~\ref{fig:verdicts}). They are the marker questions of dimensions F2 and F3.
+\item No question is \verd{misread}: wherever raters agree with each other, the models follow them.
+\item Eight questions are not settled. What holds them back is how far raters agree with each other; the better
+  model correlates with the mean of five at 0.53 to 0.71 on every one.
+\item The two models follow people equally well: 0.673 for \jev{} and 0.670 for \drex{}.
+\end{itemize}
+
+\paragraph{Second study: results fixed in advance.}
+\begin{itemize}
+\item \textbf{Four dimensions are usable, with the whole interval above the lines}: F1 (direct, organized
+  argument), F2 (positive tone versus disappointment), F3 (self-disclosure and self-criticism) and F6 (energetic
+  and angry versus calm). The composite of ten raters has a reliability of 0.71 to 0.86 and the better model's
+  dimension score correlates with it at 0.72 to 0.82 (Figure~\ref{fig:s2verdicts}).
+\item \textbf{Three dimensions lie at the lines}: F4 (care and regard for others), F5 (narrative versus
+  rebuttal) and F7 (humor and imaginative language).
+\item \textbf{One dimension has an unclear rubric}: F8 (hedging and open-mindedness versus certainty). Raters do
+  not agree at all on one of its two questions.
+\item No dimension is misread, and the two models are again level.
+\item Showing raters sample answers after the practice excerpts does not pull them towards the models.
+\end{itemize}
+
+\paragraph{Added after the results had been read,} with less weight.
+\begin{itemize}
+\item \textbf{The first study repeats.} Across the twelve questions rated in both studies, how well a model
+  follows people correlates at 0.95 and 0.90 between the studies. With both studies pooled, calm joins the four
+  usable questions.
+\item \textbf{The settled verdicts are firm.} They hold when the choice of raters is counted as well as the
+  choice of recordings, when the reliability is computed without a statistical model, and when the ratings are
+  treated as ordered categories.
+\item \textbf{A model is closer to people's shared reading than one person is.} Against what an unlimited panel
+  of readers would say, the models correlate at 0.81 to 0.86 on average; a single rating at 0.51 to 0.56.
+\item \textbf{The models follow the passage, not only the recording.} The difference between a model's scores
+  of two passages of one recording follows the difference between people's ratings of them.
+\item \textbf{Each dimension score follows its own dimension} more closely than any other, clearly so for six
+  of the eight.
+\item \textbf{People see the differences the models see} between videos and livestreams and over the years,
+  with one exception: at the same score for care and regard for others, people rate livestreams half a standard
+  deviation lower than videos.
+\item \textbf{The models' levels are not people's levels.} One model rates hedging about a scale point higher
+  than people; the other rates most questions lower.
+\item \textbf{A third model does the same.} d1.2-ultra, released after both studies, was put to the same test
+  on the same excerpts. It is level with the two models on the eight dimensions, slightly ahead on single
+  questions, shares their misses, and its levels are closer to people's (Section~\ref{sec:third}).
+\end{itemize}
+
+\paragraph{Together.} For four of the eight dimensions the models' rankings of excerpts are supported by
+people's ratings; for three the evidence lies at the lines of the rule; for one the pair of questions does not
+work in people. Rankings are supported; levels are not (Table~\ref{tab:standing}).
+
+\paragraph{How to read this report.}
+Section~\ref{sec:question} says what is tested and by which rule. Sections~\ref{sec:first} and~\ref{sec:second}
+give the two studies, Section~\ref{sec:further} the analyses added afterwards, Section~\ref{sec:third} a third
+model, Section~\ref{sec:discussion} what
+the studies support and what they do not, and Section~\ref{sec:materials} the participants, the data and the
+code. Intervals in brackets are 95\% intervals from resampling excerpts or recordings unless stated otherwise.

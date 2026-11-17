@@ -1,0 +1,229 @@
+\section{Second study: eight dimensions}\label{sec:second}
+
+\subsection{Design}\label{sec:seconddesign}
+
+The second study keeps the population, the excerpt length, the page and the rule, and changes what the first
+study showed to be weak (Table~\ref{tab:s2design}).
+
+\begin{table}[!htb]\centering
+\caption{The two designs.}\label{tab:s2design}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+ & First study & Second study \\
+\midrule
+Unit of the verdict & question & dimension (two questions) \\
+Questions & 12, six per form & 16, eight per form: one marker of every dimension on each form \\
+Excerpts & 160, one per recording; 56 random, 104 chosen by their scores & 160: two passages from each of 80
+recordings, a random sample balanced on the models' scores \\
+Raters & 205; five per set of eight excerpts, 40 closed sets & 211; one per set of eight, 200 sets that overlap;
+five per excerpt and form \\
+Rater levels & confounded with the set & estimated across the form and taken out \\
+Figures for the population & rebuilt from a regression & plain; the regression estimate beside them \\
+Sample answers after practice & shown to every rater & shown to half the raters \\
+Checks that decide whose ratings count & one changed during collection & both fixed in advance, none changed \\
+Model calls per excerpt & one & four \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Questions.} Per dimension, the two highest-loading questions on which the two models' recording
+averages correlate at 0.6 or more. A question keeps the form it had in the first study and its partner takes the
+other form (Table~\ref{tab:s2markers}). Every rater therefore rates all eight dimensions once on every excerpt,
+and the two markers of a dimension are rated by different people. People's score of an excerpt on a dimension,
+the \emph{composite}, is the mean of its two markers in scale points, with the sign of the loading. The models'
+score is the dimension score of the analysis.
+
+\begin{table}[!htb]\centering
+\caption{The eight dimensions and their sixteen marker questions. \emph{Minus}: the question loads negatively
+and enters the composite with the opposite sign. \textsuperscript{n}: not rated in the first
+study.}\label{tab:s2markers}
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Dimension & Form A & Form B \\
+\midrule
+F1 Direct, organized argument & Persuasion & Persistence \\
+F2 Positive tone versus disappointment & Positive tone & Disappointment (minus) \\
+F3 Self-disclosure and self-criticism & Self-critical & Self-disclosure \\
+F4 Care and regard for others & Respect\textsuperscript{n} & Compassion \\
+F5 Narrative versus rebuttal & Rebuttal\textsuperscript{n} (minus) & Narrative \\
+F6 Energetic and angry versus calm & Energetic & Calm (minus) \\
+F7 Humor and imaginative language & Humor & Imaginative\textsuperscript{n} \\
+F8 Hedging and open-mindedness versus certainty & Knowledge limits\textsuperscript{n} & Hedging \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Excerpts.} 80 recordings not used in the first study, 40 videos and 40 streams, the three periods in
+proportion, each with two random passages: 160 excerpts. Nothing was chosen by reading. Of 200 random samples
+drawn this way, the one was taken whose model scores are closest to the pool's in mean and spread; on simulated
+studies this makes the figures 6\% to 9\% tighter and stays unbiased. All 160 excerpts were read before any
+participant saw them, and two recordings were exchanged because a passage could identify a person. Fourteen
+excerpts hold sexual or otherwise sensitive language. They were kept, because leaving them out would have
+thinned what two of the dimensions measure, and participants were warned (Section~\ref{sec:materials}); the
+results do not change without them.
+
+\begin{figure}[!htb]\centering
+\begin{tikzpicture}[dia,node distance=5mm]
+\node[box,text width=2.55cm] (r) {\textbf{80 recordings}\\ 40 videos, 40 streams\\ a balanced random draw};
+\node[box,text width=2.55cm,right=6mm of r] (e) {\textbf{160 excerpts}\\ two random passages of each recording, 250 words};
+\node[boxa,text width=3.4cm,right=7mm of e,yshift=9.5mm] (a) {\textbf{Form A}: eight questions,\\ one marker of every dimension};
+\node[boxa,text width=3.4cm,right=7mm of e,yshift=-9.5mm] (b) {\textbf{Form B}: the other eight markers};
+\node[box,text width=3.3cm,right=6mm of a] (sa) {5 rounds $\times$ 20 sets of 8 excerpts\\ \textbf{100 raters}, one per set};
+\node[box,text width=3.3cm,right=6mm of b] (sb) {5 rounds $\times$ 20 sets of 8 excerpts\\ \textbf{100 raters}, one per set};
+\draw[arr] (r) -- (e); \draw[arr] (e.east) -- ++(0.3,0) |- (a.west); \draw[arr] (e.east) -- ++(0.3,0) |- (b.west); \draw[arr] (a) -- (sa); \draw[arr] (b) -- (sb);
+\node[boxw,text width=5.0cm,below=9mm of r.south west,anchor=north west] (p) {\textbf{Per excerpt}: five raters per form, so five ratings of each of its 16 questions and ten ratings behind each dimension};
+\node[boxw,text width=4.3cm,right=4mm of p] (q) {\textbf{Per rater}: eight excerpts from eight recordings, four videos and four streams; another mix for every rater};
+\node[boxw,text width=4.3cm,right=4mm of q] (s) {\textbf{Two arms}: sets with an even number see sample answers after the practice excerpts, the others their own answers only};
+\end{tikzpicture}
+\caption{The design of the second study. In a round every excerpt is in exactly one set; over the five rounds of
+a form no two excerpts share a set twice, and no rater reads both passages of a recording.}\label{fig:s2design}
+\end{figure}
+
+\paragraph{Sets, raters and arms.} Per form there are 100 sets of eight excerpts in five rounds of 20
+(Figure~\ref{fig:s2design}). In a round every excerpt is in exactly one set, so every excerpt is read by five
+raters per form and ten per dimension. No rater reads both passages of a recording, no two excerpts share a set
+twice on a form, and all excerpts of a form are linked through raters; this is what lets a rater's level be
+told apart from the excerpts. A set needs one valid rater, and an excluded rater's set is given again. The
+order of the eight questions rotates from rater to rater. Raters of sets with an even number saw sample answers
+after each of two practice excerpts, as everyone had in the first study; raters of the other sets saw their own
+answers only.
+
+\subsection{Estimators}\label{sec:secondmethods}
+
+\paragraph{Excerpt means with rater levels taken out.} For one question on one form,
+\begin{equation}\label{eq:crossed}
+  y_{ir} = \mu_i + \gamma\,a_r + u_r + e_{ir}, \qquad u_r \sim (0, \su), \qquad e_{ir} \sim (0, \sigma_e^2),
+\end{equation}
+with a fixed mean $\mu_i$ per excerpt, $a_r = \pm\tfrac12$ for the rater's arm, the rater's level $u_r$ and the
+rest $e_{ir}$. The two variances are estimated by restricted maximum likelihood and the means by generalised
+least squares, which also gives the noise variance $v_i$ of each mean. ``Cannot judge'' is missing; an excerpt
+with fewer than two ratings of a question has no mean for it.
+
+\paragraph{Composite and plain figures.} For a dimension with markers $a$ and $b$ and signs $s_a, s_b$,
+\begin{equation}
+  H_i = \tfrac12\bigl(s_a\hat\mu_i^{a} + s_b\hat\mu_i^{b}\bigr), \qquad c_i = \tfrac14\bigl(v_i^{a} + v_i^{b}\bigr) .
+\end{equation}
+With $S_H^2$ the variance of $H$ over the excerpts, $\bar c$ the mean of the $c_i$ and $\bar c_5$ the noise that
+exactly five raters per question would leave,
+\begin{equation}\label{eq:plain}
+  \hat\sigma_T^2 = S_H^2 - \bar c, \qquad
+  \R{5} = \frac{\hat\sigma_T^2}{\hat\sigma_T^2 + \bar c_5}, \qquad
+  r_m = \corr(X_m, H)\,\sqrt{\frac{\hat\sigma_T^2 + \bar c}{\hat\sigma_T^2 + \bar c_5}},
+\end{equation}
+with $X_m$ the dimension score of model $m$. No model of the population is needed, because the 80 recordings
+are a random sample of it. The verdict rests on these plain figures.
+
+\paragraph{With the model's help, and recordings.} A second estimate regresses $H$ on five predictors (both
+models' dimension scores of the passage, the site's score of the recording, and both models' scores of the other
+passage) and rebuilds the figures with the covariance of these predictors in the pool, as in the first study. It
+does not depend on which 80 recordings were drawn and gives each model's correlation $\rho$ with the consensus of
+an unlimited panel. The same regression, with the product of the two passages' residuals, gives the share of
+people's differences between passages that lies between recordings, and the correlation of the site's recording
+score with what a panel would say about the recording.
+
+\paragraph{Intervals and tests.} Recordings are resampled 1{,}000 times within their kind, both passages
+together. On 200 simulated studies with the real pool, sets and design, the estimators recovered the truth
+within 0.02 and the intervals held it in 91\% to 95\% of the studies. The simulations expected F1, F6 and F7 to
+come out usable if the first study's figures held, and F4, F5 and F8 to lie at the lines.
+
+\paragraph{Repeat calls of the models.} Each model rated each of the 160 excerpts four times. A score of the
+same text hardly moves from call to call (Table~\ref{tab:repeat}), so one call per excerpt is enough, and the
+models' own noise explains nothing worth naming of the distance between models and people. The table's last
+column is the third model of Section~\ref{sec:third}.
+
+\begin{table}[!htb]\centering
+\caption{A model's score of the same text over four calls. Reliability of one call: the variance of the
+excerpts' mean scores over that variance plus the variance between calls.}\label{tab:repeat}
+\input{gen/pub-tab-repeat}
+\end{table}
+
+\subsection{Results fixed in advance}\label{sec:secondresults}
+
+\begin{figure}[!htb]\centering
+\input{gen/s2-fig-verdicts}
+\caption{Second study. The eight dimensions on the two quantities that decide the verdict, with 95\% intervals
+from resampling recordings. Under each dimension its two marker questions. Vertical lines: the thresholds of the
+rule, 0.40 and 0.60 for the reliability and 0.30 and 0.50 for the better model's correlation. Right: the
+verdict, whether it is settled, and the share of 1{,}000 resamples in which the dimension is
+usable.}\label{fig:s2verdicts}
+\end{figure}
+
+\begin{table}[!htb]\centering
+\caption{Second study, plain figures per dimension: the reliability of the composite when each marker is rated
+by five people, and each model's correlation of its dimension score with that composite, with 95\%
+intervals.}\label{tab:s2primary}
+\input{gen/s2-tab-primary}
+\end{table}
+
+\paragraph{Four dimensions are usable, and settled.} For F1 (direct, organized argument), F2 (positive tone
+versus disappointment), F3 (self-disclosure and self-criticism) and F6 (energetic and angry versus calm), ten
+raters agree at 0.71 to 0.86 and the better model's dimension score correlates with their composite at 0.72 to
+0.82 (Figure~\ref{fig:s2verdicts}, Table~\ref{tab:s2primary}). The whole interval of both quantities lies above
+its line. For F1 and F6 this is the confirmation the design named in advance.
+
+\paragraph{Three dimensions are at the line.} F4 (care and regard for others) is usable by the point estimate,
+with a reliability of 0.66 and both models at the threshold of 0.50; in the resamples it is usable in half and
+borderline in half. F5 (narrative versus rebuttal) is borderline with a reliability of 0.596 against a line of
+0.60, while both models follow the composite well (0.70 and 0.64). F7 (humor and imaginative language) is
+borderline at 0.585. For these three the estimate with its interval is the result, not the label.
+
+\paragraph{One dimension has an unclear rubric.} For F8 (hedging and open-mindedness versus certainty) ten raters
+agree at 0.34 (0.16 to 0.46). The models' dimension scores still correlate with the composite at 0.51 and 0.58.
+
+\paragraph{No dimension is misread,} as in the first study: wherever raters agree, the models follow.
+
+\begin{table}[!htb]\centering
+\caption{The same with the model's help: the reliability of the composite, each model's correlation with the
+consensus of an unlimited panel, and the verdict. Right: the share of people's differences between passages
+that lies between recordings, the correlation of the site's recording score with what a panel would say about
+the recording, and the plain share.}\label{tab:s2help}
+\input{gen/s2-tab-help}
+\end{table}
+
+\paragraph{With the model's help, and recordings.} The regression estimate agrees with the plain figures on
+seven dimensions (Table~\ref{tab:s2help}). On F5 the reliability is 0.62 with the model's help and 0.596 without,
+so that F5 is usable on one and borderline on the other; both are stated, as fixed in advance. Between a fifth
+and seven tenths of people's differences between passages lie between recordings. The site's recording score
+correlates with what a panel would say about the two passages of a recording at 0.70 to 1.00, with wide
+intervals: enough to tell a recording score that people follow from one they do not, not a fine measurement.
+
+\paragraph{Which model.} Over the eight dimensions \jev{} correlates with the composite at 0.670 and \drex{} at
+0.656, a difference of $+0.014$ ($-0.008$ to $+0.034$). By dimension \jev{} is ahead on F6 and \drex{} on F8.
+
+\begin{figure}[!htb]\centering
+\input{gen/s2-fig-questions}
+\caption{Second study: the sixteen questions one by one, in pairs by dimension. \textsuperscript{n}: not rated in
+the first study. The rule is applied for comparison only; no verdict of this study rests on a single
+question.}\label{fig:s2questions}
+\end{figure}
+
+\paragraph{The sixteen questions} (Figure~\ref{fig:s2questions}; Table~\ref{tab:s2questions}).
+\begin{itemize}
+\item The four usable questions of the first study are usable again on fresh excerpts, fresh raters and another
+  design, with reliabilities of 0.73 to 0.79.
+\item The four new questions are the weakest of their dimensions. Rebuttal (0.52) is close to its partner
+  narrative (0.57). Respect (0.42) and imaginative language (0.35) are well below compassion (0.63) and humor
+  (0.61). Knowledge limits has a reliability of 0.11: the mean of five raters carries almost nothing that
+  another five would repeat.
+\item This explains the weak dimensions: F7 and F8 are each pulled down by a new question that raters do not
+  agree on.
+\end{itemize}
+
+\begin{table}[!htb]\centering
+\caption{The two arms, with raters as the unit: 105 raters who saw sample answers after the practice excerpts and
+106 who saw their own answers only. Differences with 95\% intervals.}\label{tab:s2arms}
+\input{gen/s2-tab-arms}
+\end{table}
+
+\paragraph{The two arms.} Showing sample answers did not pull raters towards the models (Table~\ref{tab:s2arms}).
+A rater's correlation with \jev{} is 0.387 with sample answers and 0.388 without, a difference of $-0.001$
+($-0.049$ to $+0.048$). Agreement with the other raters, level, the use of ``cannot judge'' and time do not differ
+either. Raters who saw sample answers spread their ratings a little less, 1.06 against 1.14 scale points.
+
+\paragraph{Parts of the excerpts, and a look before the end.} Figures for videos and streams and for the three
+periods are in Table~\ref{tab:s2parts}. The analysis was run once on the 194 valid raters of the main batch,
+before a top-up filled the sets that still lacked a valid rater, as the design required. Seven of the eight
+verdicts were the same in that earlier run; F7 was usable with a reliability just above 0.60 and is borderline
+at 0.585 in the result. The code did not change between the two runs.

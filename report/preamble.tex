@@ -1,0 +1,63 @@
+% Shared preamble of the report: packages, colours and the marks used in the figures.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage[final]{microtype}
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{booktabs,tabularx,array,longtable,colortbl}
+\usepackage{xcolor,graphicx,float}
+\usepackage[font=small,labelfont={sf,bf},format=plain,skip=6pt]{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,shapes.geometric,backgrounds,decorations.pathreplacing}
+\definecolor{cjev}{HTML}{2A78D6}\definecolor{cdrex}{HTML}{EB6834}\definecolor{cpeople}{HTML}{52514E}\definecolor{caccent}{HTML}{1BAF7A}
+\definecolor{cgone}{HTML}{898781}\definecolor{cgtwo}{HTML}{C3C2B7}\definecolor{cgrid}{HTML}{E1E0D9}\definecolor{caxis}{HTML}{B5B4AA}\definecolor{cmuted}{HTML}{6F6E69}\definecolor{cink}{HTML}{0B0B0B}
+\definecolor{cbox}{HTML}{F3F2EE}
+\tikzset{
+  fig/.style={x=1cm,y=1cm,font=\sffamily\footnotesize,line cap=round,line join=round},
+  grid/.style={draw=cgrid,line width=0.4pt},
+  axis/.style={draw=caxis,line width=0.5pt},
+  ref/.style={draw=cmuted,line width=0.5pt},
+  lbl/.style={text=cink,inner sep=0pt,font=\sffamily\footnotesize},
+  lblm/.style={text=cink,inner sep=0pt,font=\footnotesize},
+  ttl/.style={text=cink,inner sep=0pt,font=\sffamily\footnotesize\bfseries},
+  mut/.style={text=cmuted,inner sep=0pt,font=\sffamily\scriptsize},
+  mutw/.style={text=cmuted,inner sep=1.2pt,fill=white,font=\sffamily\scriptsize},
+  leg/.style={text=cpeople,inner sep=0pt,font=\sffamily\scriptsize},
+  tick/.style={text=cmuted,inner sep=1pt,font=\sffamily\scriptsize},
+  inbar/.style={inner sep=0pt,font=\sffamily\scriptsize,anchor=base west},
+}
+\newcommand{\mkiv}[4]{\draw[#1,line width=0.9pt] (#2,#4) -- (#3,#4);}
+\newcommand{\mkdot}[3]{\path[draw=white,line width=0.7pt,fill=#1] (#2,#3) circle[radius=2.1pt];}
+\newcommand{\mkring}[3]{\path[draw=#1,line width=0.9pt,fill=white] (#2,#3) circle[radius=1.9pt];}
+\newcommand{\mkdia}[3]{\path[draw=white,line width=0.7pt,fill=#1] (#2,#3) ++(0,3.0pt) -- ++(3.0pt,-3.0pt) -- ++(-3.0pt,-3.0pt) -- ++(-3.0pt,3.0pt) -- cycle;}
+\newcommand{\mkrdia}[3]{\path[draw=#1,line width=0.9pt,fill=white] (#2,#3) ++(0,2.7pt) -- ++(2.7pt,-2.7pt) -- ++(-2.7pt,-2.7pt) -- ++(-2.7pt,2.7pt) -- cycle;}
+% Diagrams
+\tikzset{
+  dia/.style={font=\sffamily\footnotesize,>=Stealth,line cap=round,line join=round},
+  box/.style={draw=caxis,fill=cbox,rounded corners=2pt,align=center,inner sep=4.5pt,text=cink},
+  boxa/.style={box,fill=caccent!13,draw=caccent!75!black},
+  boxw/.style={box,fill=white},
+  note/.style={font=\sffamily\scriptsize,text=cmuted,align=center,inner sep=1pt},
+  arr/.style={->,draw=cpeople,line width=0.6pt},
+  obs/.style={draw=cpeople,fill=white,rectangle,rounded corners=1pt,minimum height=7mm,minimum width=9mm,inner sep=3pt,align=center},
+  lat/.style={draw=cpeople,fill=cbox,circle,minimum size=9mm,inner sep=1pt,align=center},
+}
+% Notation
+\newcommand{\jev}{\texttt{jev-1.14.0}}
+\newcommand{\drex}{drex-max}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\cov}{cov}
+\DeclareMathOperator{\corr}{corr}
+\DeclareMathOperator{\tr}{tr}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\T}{\top}
+\newcommand{\R}[1]{R_{#1}}
+\newcommand{\sT}{\sigma_T^2}
+\newcommand{\se}{\sigma_\varepsilon^2}
+\newcommand{\su}{\sigma_u^2}
+\newcommand{\bbeta}{\bm{\beta}}
+\newcommand{\bx}{\bm{x}}
+\newcommand{\bSigma}{\bm{\Sigma}}
+\newcommand{\verd}[1]{\emph{#1}}

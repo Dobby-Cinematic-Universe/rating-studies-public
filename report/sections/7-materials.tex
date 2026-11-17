@@ -1,0 +1,77 @@
+\section{Participants, data and code}\label{sec:materials}
+
+\subsection{Participants}\label{sec:participants}
+
+Participants were recruited on CloudResearch Connect: adults who read English, with an approval rate of 95\% or
+more, on a desktop computer or tablet. Each person took part once, in one study. The platform's demographic
+data were not requested, so nothing else is known about the raters. The studies were not reviewed by an ethics
+board.
+
+\paragraph{What participants were told.} Before agreeing, each participant read what the task is (two practice
+excerpts, eight excerpts of about 250 words, six or eight questions on each), what the texts are (machine-made
+transcripts of publicly available online videos, informal, with errors and swearing), what is recorded (the
+answers, the time spent on each page, and the participant code the platform passes on; no name and no contact
+details), how they are paid, and that they can stop at any time. In the second study the listing and the
+consent page also said that the excerpts may include heavy swearing, that about one excerpt in twelve includes
+sexual language, that nobody reads more than one such excerpt, and that people who would rather not read this
+kind of material should not take part.
+
+\begin{table}[!htb]\centering
+\caption{The two collections. Valid: finished and passed both checks. Each study began with a pilot of ten
+participants, which is reported apart and is not in the data.}\label{tab:collections}
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+ & First study & Second study \\
+\midrule
+Date & 15 November 2026 & 16 November 2026 \\
+Valid raters & 205 & 211 \\
+Finished, excluded by the checks & 14 & 6 \\
+Answers; of them ``cannot judge'' & 9{,}840; 192 & 13{,}504; 256 \\
+Stated time; median time on the page (minutes) & 18, later 23; 21 & 25; 24 \\
+Pay & \$2.90 & \$3.15 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Pay and time.} The platform requires at least \$7.50 an hour for the stated time. The first study
+stated 18 minutes at \$2.25 and took a median of 21, so every participant of its main batch received \$0.65
+more, and three whom the platform had timed out were paid in full afterwards. The second study stated 25
+minutes at \$3.15 and took a median of 24 (Figure~\ref{fig:s2minutes}).
+
+\begin{figure}[!htb]\centering
+\input{gen/s2-fig-minutes}
+\caption{Second study: time on the page of the 211 valid raters, by arm.}\label{fig:s2minutes}
+\end{figure}
+
+\paragraph{Checks, exclusions and rejections.} A session counted when the participant answered an
+instructed-response item correctly and let at least 15 seconds pass before the first answer on five of the
+eight excerpts. Participants who failed a check were paid like the others; their ratings do not count and
+their set was given to someone else. There are two exceptions: in the second study two submissions were
+rejected, following the platform's guidance, because several measures together showed that the excerpts had not
+been read (the first answer within seconds of each excerpt appearing, about two thirds of the answers on one
+level, no agreement with other raters). The listing had not named criteria for rejection in advance. Who is
+valid was decided by the two checks alone.
+
+\subsection{Data and code}\label{sec:data}
+
+The package that holds this report also holds the data and one script.
+\begin{itemize}
+\item \texttt{data/study1\_ratings.csv} and \texttt{data/study2\_ratings.csv}: every rating of every valid
+  rater, with the rater's form and set. Raters are numbered in a random order and sets carry random labels.
+\item \texttt{data/pool.csv}: the three models' scores of every eligible candidate passage on the sixteen
+  questions and the eight dimensions, with the site's recording scores, the recording's identifier in the public corpus and the excerpt's place in
+  its transcript. \texttt{data/study1\_excerpts.csv} and \texttt{data/study2\_excerpts.csv} say which
+  candidates were rated.
+\item \texttt{data/study2\_model\_calls.csv}: the four calls of each model on each excerpt of the second study.
+\item \texttt{replicate.py}: recomputes every figure of this report from these files with fixed random seeds,
+  and with \texttt{--check} compares the result with the numbers reported. It needs Python with numpy and scipy.
+\end{itemize}
+
+\paragraph{What the data do not hold.} Nothing that identifies a participant: no participant code, no time of
+day, no order of arrival, no closing comment and no time per answer. Time on the page is given as counts in
+steps of five minutes and as summaries, not for single raters. No excerpt text: an excerpt is given by its
+recording and its place in the transcript, so that it can be read in the public corpus by those who wish to. No
+mark of which excerpts hold sensitive language. Three things in this report can therefore not be recomputed
+from the public data: the first study under its reading check as first fixed, the second study without the
+fourteen excerpts with sensitive language, and the earlier run of the second study.
